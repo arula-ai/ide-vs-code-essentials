@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "mechatroner.rainbow-csv",
+    "grapecity.gc-excelviewer",
+    "mtxr.sqltools",
+    "yzhang.markdown-all-in-one",
+    "github.copilot",
+    "github.copilot-chat"
+  ]
+}
