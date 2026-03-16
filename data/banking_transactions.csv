@@ -1,0 +1,251 @@
+transaction_id,customer_id,account_type,transaction_type,merchant,amount_usd,region,channel,timestamp,is_flagged
+TXN00001,C2001,Checking,Cash Deposit,Branch Office,9800,CA,Branch,2024-03-15 10:01:00,TRUE
+TXN00002,C2001,Checking,Cash Deposit,Branch Office,9750,CA,ATM,2024-03-15 13:15:00,TRUE
+TXN00003,C2001,Checking,Cash Deposit,Branch Office,9900,CA,Mobile App,2024-03-15 12:08:00,TRUE
+TXN00004,C2001,Checking,Cash Deposit,Branch Office,9850,CA,Branch,2024-03-15 10:43:00,TRUE
+TXN00005,C2001,Checking,Cash Deposit,Branch Office,9700,CA,Online Banking,2024-03-15 17:05:00,TRUE
+TXN00006,C2002,Checking,POS Purchase,Amazon,954,CA,Mobile App,2024-06-20 14:10:00,TRUE
+TXN00007,C2002,Checking,POS Purchase,Walmart,782,NY,Online Banking,2024-06-20 14:23:00,TRUE
+TXN00008,C2002,Checking,POS Purchase,Target,382,TX,Mobile App,2024-06-20 14:36:00,TRUE
+TXN00009,C2002,Checking,POS Purchase,Apple,380,FL,POS Terminal,2024-06-20 14:49:00,TRUE
+TXN00010,C2002,Checking,POS Purchase,Best Buy,445,CA,Mobile App,2024-06-20 14:62:00,TRUE
+TXN00011,C2002,Checking,POS Purchase,Starbucks,573,NY,Online Banking,2024-06-20 14:75:00,TRUE
+TXN00012,C2002,Checking,POS Purchase,Netflix,588,TX,Mobile App,2024-06-20 14:88:00,TRUE
+TXN00013,C2002,Checking,POS Purchase,Airbnb,867,FL,Online Banking,2024-06-20 14:101:00,TRUE
+TXN00014,C2003,Savings,Withdrawal,ATM Withdrawal,5000,TX,ATM,2024-07-10 10:00:00,TRUE
+TXN00015,C2003,Savings,Withdrawal,ATM Withdrawal,5000,TX,ATM,2024-07-11 10:00:00,TRUE
+TXN00016,C2003,Savings,Withdrawal,ATM Withdrawal,5000,TX,ATM,2024-07-12 10:00:00,TRUE
+TXN00017,C2003,Savings,Withdrawal,ATM Withdrawal,5000,TX,ATM,2024-07-13 10:00:00,TRUE
+TXN00018,C2003,Savings,Withdrawal,ATM Withdrawal,5000,TX,ATM,2024-07-14 10:00:00,TRUE
+TXN00019,C2003,Savings,Withdrawal,ATM Withdrawal,5000,TX,ATM,2024-07-15 10:00:00,TRUE
+TXN00020,C2004,Business,Wire Transfer,International Wire,92000,NY,Wire Transfer,2024-04-08 02:14:00,TRUE
+TXN00021,C2005,Business,Wire Transfer,International Wire,87500,NY,Wire Transfer,2024-08-22 03:47:00,TRUE
+TXN00022,C2006,Business,Wire Transfer,International Wire,96000,NY,Wire Transfer,2024-11-05 02:58:00,TRUE
+TXN00023,C2007,Savings,Transfer,Internal Transfer,45000,FL,Online Banking,2024-09-18 23:41:00,TRUE
+TXN00024,C2008,Checking,POS Purchase,Amazon,213,WA,POS Terminal,2024-05-14 11:05:00,TRUE
+TXN00025,C2008,Checking,POS Purchase,Walmart,487,WA,POS Terminal,2024-05-14 11:07:00,TRUE
+TXN00026,C2008,Checking,POS Purchase,Target,301,WA,POS Terminal,2024-05-14 11:09:00,TRUE
+TXN00027,C2008,Checking,POS Purchase,Apple,479,WA,POS Terminal,2024-05-14 11:11:00,TRUE
+TXN00028,C2008,Checking,POS Purchase,Best Buy,414,WA,POS Terminal,2024-05-14 11:13:00,TRUE
+TXN00029,C2008,Checking,POS Purchase,Starbucks,312,WA,POS Terminal,2024-05-14 11:15:00,TRUE
+TXN00030,C2008,Checking,POS Purchase,Netflix,429,WA,POS Terminal,2024-05-14 11:17:00,TRUE
+TXN00031,C2008,Checking,POS Purchase,Shell Gas,342,WA,POS Terminal,2024-05-14 11:19:00,TRUE
+TXN00032,C2008,Checking,POS Purchase,Whole Foods,203,WA,POS Terminal,2024-05-14 11:21:00,TRUE
+TXN00033,C2008,Checking,POS Purchase,Costco,281,WA,POS Terminal,2024-05-14 11:23:00,TRUE
+TXN00034,C2008,Checking,POS Purchase,Airbnb,416,WA,POS Terminal,2024-05-14 11:25:00,TRUE
+TXN00035,C2008,Checking,POS Purchase,Walmart,374,WA,POS Terminal,2024-05-14 11:27:00,TRUE
+TXN00036,C1500,Checking,Wire Transfer,International Wire,28000,GA,Online Banking,2024-02-14 03:12:00,TRUE
+TXN00037,C1501,Savings,Transfer,Internal Transfer,22000,MA,Mobile App,2024-05-29 02:45:00,TRUE
+TXN00038,C1502,Business,Wire Transfer,International Wire,50000,IL,Wire Transfer,2024-08-07 03:58:00,TRUE
+TXN00039,C1503,Checking,Online Payment,International Wire,17500,NJ,Online Banking,2024-10-21 02:31:00,TRUE
+TXN00040,C1504,Savings,Transfer,Internal Transfer,35000,CO,Mobile App,2024-12-03 03:05:00,TRUE
+TXN00041,C2009,Business,Cash Deposit,Branch Office,18000,CA,Branch,2024-06-03 09:30:00,TRUE
+TXN00042,C2009,Business,Cash Deposit,Branch Office,22000,CA,Branch,2024-06-04 09:30:00,TRUE
+TXN00043,C2009,Business,Cash Deposit,Branch Office,15500,CA,Branch,2024-06-05 09:30:00,TRUE
+TXN00044,C2009,Business,Cash Deposit,Branch Office,19800,CA,Branch,2024-06-06 09:30:00,TRUE
+TXN00045,C2009,Business,Cash Deposit,Branch Office,21000,CA,Branch,2024-06-07 09:30:00,TRUE
+TXN00046,C1072,Checking,Deposit,Internal Transfer,690.61,IL,Online Banking,2024-02-07 13:27:43,FALSE
+TXN00047,C1092,Savings,Online Payment,Utility Payment,646.67,NJ,Online Banking,2024-07-27 06:00:29,FALSE
+TXN00048,C1032,Savings,POS Purchase,Whole Foods,238.08,CO,POS Terminal,2024-12-09 21:00:30,FALSE
+TXN00049,C1093,Business,Deposit,Payroll,419.96,FL,Online Banking,2024-10-27 05:31:09,FALSE
+TXN00050,C1075,Checking,Deposit,Payroll,2024.61,NJ,Online Banking,2024-09-03 21:00:30,FALSE
+TXN00051,C1094,Checking,Withdrawal,ATM Withdrawal,80,WA,ATM,2024-09-29 13:26:21,FALSE
+TXN00052,C1175,Business,POS Purchase,Netflix,509.81,GA,POS Terminal,2024-10-10 03:57:15,FALSE
+TXN00053,C1063,Checking,Transfer,Internal Transfer,846.35,GA,Mobile App,2024-03-26 06:57:42,FALSE
+TXN00054,C1176,Savings,POS Purchase,Apple,658.33,MA,POS Terminal,2024-06-04 19:07:36,FALSE
+TXN00055,C1069,Checking,Deposit,Internal Transfer,1220.61,NJ,Online Banking,2024-06-02 15:33:23,FALSE
+TXN00056,C1165,Savings,Deposit,Internal Transfer,870.23,GA,Online Banking,2024-07-28 07:37:56,FALSE
+TXN00057,C1068,Business,Online Payment,Airbnb,718.77,IL,Online Banking,2024-05-20 14:03:05,FALSE
+TXN00058,C1057,Checking,Online Payment,Airbnb,77.27,CA,Online Banking,2024-11-30 10:03:39,FALSE
+TXN00059,C1029,Checking,Cash Deposit,Branch Office,4001.98,IL,Branch,2024-08-19 14:56:06,FALSE
+TXN00060,C1017,Savings,Transfer,Internal Transfer,1610.89,GA,Mobile App,2024-11-30 07:02:53,FALSE
+TXN00061,C1003,Business,Cash Deposit,Branch Office,3472.21,GA,Branch,2024-10-18 14:41:18,FALSE
+TXN00062,C1069,Business,Withdrawal,ATM Withdrawal,100,IL,ATM,2024-03-02 10:08:13,FALSE
+TXN00063,C1117,Checking,Cash Deposit,Branch Office,4865.06,TX,Branch,2024-07-16 03:56:10,FALSE
+TXN00064,C1028,Business,Withdrawal,ATM Withdrawal,60,MA,ATM,2024-10-23 03:06:56,FALSE
+TXN00065,C1042,Business,Online Payment,Amazon,481.16,NJ,Online Banking,2024-01-08 13:32:11,FALSE
+TXN00066,C1029,Savings,Withdrawal,ATM Withdrawal,20,FL,ATM,2024-12-06 23:38:33,FALSE
+TXN00067,C1146,Checking,POS Purchase,Shell Gas,653.74,GA,POS Terminal,2024-10-24 10:05:39,FALSE
+TXN00068,C1033,Checking,Cash Deposit,Branch Office,4744.87,TX,Branch,2024-04-12 22:30:24,FALSE
+TXN00069,C1136,Business,Transfer,Internal Transfer,2790.29,FL,Mobile App,2024-10-03 21:09:57,FALSE
+TXN00070,C1080,Savings,Cash Deposit,Branch Office,2302.88,GA,Branch,2024-06-24 08:09:21,FALSE
+TXN00071,C1031,Checking,Deposit,Payroll,1822.81,CO,Online Banking,2024-08-03 02:55:22,FALSE
+TXN00072,C1059,Business,Deposit,Payroll,540.77,CA,Online Banking,2024-03-29 21:53:31,FALSE
+TXN00073,C1018,Checking,Withdrawal,ATM Withdrawal,400,FL,ATM,2024-04-18 03:35:46,FALSE
+TXN00074,C1172,Savings,Deposit,Payroll,3672.09,CO,Online Banking,2024-08-11 18:40:54,FALSE
+TXN00075,C1122,Checking,Transfer,Internal Transfer,611.71,NY,Mobile App,2024-09-12 22:09:51,FALSE
+TXN00076,C1111,Savings,Transfer,Internal Transfer,1427.72,CA,Mobile App,2024-09-18 12:12:44,FALSE
+TXN00077,C1168,Business,POS Purchase,Amazon,325.08,MA,POS Terminal,2024-11-06 22:03:46,FALSE
+TXN00078,C1028,Checking,Deposit,Payroll,2774.17,TX,Online Banking,2024-06-12 20:13:18,FALSE
+TXN00079,C1047,Savings,Transfer,Internal Transfer,2629.73,NY,Mobile App,2024-06-21 02:16:40,FALSE
+TXN00080,C1207,Business,POS Purchase,Amazon,523.46,GA,POS Terminal,2024-11-20 16:20:30,FALSE
+TXN00081,C1004,Checking,Deposit,Payroll,2150.79,NJ,Online Banking,2024-03-24 00:16:09,FALSE
+TXN00082,C1103,Checking,Deposit,Internal Transfer,210.35,IL,Online Banking,2024-04-12 23:52:17,FALSE
+TXN00083,C1201,Savings,Withdrawal,ATM Withdrawal,400,NJ,ATM,2024-03-01 02:48:39,FALSE
+TXN00084,C1049,Savings,Deposit,Payroll,2980.07,GA,Online Banking,2024-01-24 16:09:56,FALSE
+TXN00085,C1192,Savings,POS Purchase,Amazon,469.42,GA,POS Terminal,2024-12-23 01:18:32,FALSE
+TXN00086,C1136,Checking,POS Purchase,Whole Foods,68.69,TX,POS Terminal,2024-01-27 14:39:54,FALSE
+TXN00087,C1153,Checking,Cash Deposit,Branch Office,2138.12,CO,Branch,2024-04-05 14:53:36,FALSE
+TXN00088,C1149,Business,POS Purchase,Netflix,70.18,CO,POS Terminal,2024-08-07 12:17:48,FALSE
+TXN00089,C1134,Savings,Withdrawal,ATM Withdrawal,120,FL,ATM,2024-04-13 03:42:24,FALSE
+TXN00090,C1102,Checking,Cash Deposit,Branch Office,2394.68,NY,Branch,2024-01-04 14:49:34,FALSE
+TXN00091,C1118,Business,Online Payment,Amazon,63.24,FL,Online Banking,2024-07-15 11:11:13,FALSE
+TXN00092,C1068,Checking,Withdrawal,ATM Withdrawal,80,MA,ATM,2024-04-20 16:16:30,FALSE
+TXN00093,C1041,Savings,Online Payment,Utility Payment,491.28,GA,Online Banking,2024-01-04 00:54:59,FALSE
+TXN00094,C1171,Business,Withdrawal,ATM Withdrawal,60,WA,ATM,2024-02-14 19:52:23,FALSE
+TXN00095,C1028,Business,Online Payment,Netflix,221.52,CO,Online Banking,2024-03-22 19:12:38,FALSE
+TXN00096,C1184,Savings,Deposit,Internal Transfer,2625.96,WA,Online Banking,2024-12-17 14:20:51,FALSE
+TXN00097,C1014,Checking,Cash Deposit,Branch Office,4180.87,CA,Branch,2024-01-02 09:02:53,FALSE
+TXN00098,C1086,Checking,Cash Deposit,Branch Office,975.59,NJ,Branch,2024-08-02 06:02:03,FALSE
+TXN00099,C1181,Savings,Online Payment,Amazon,93.94,TX,Online Banking,2024-07-30 21:16:12,FALSE
+TXN00100,C1010,Savings,Online Payment,Netflix,346.68,CA,Online Banking,2024-04-29 17:10:33,FALSE
+TXN00101,C1094,Checking,Withdrawal,ATM Withdrawal,80,NY,ATM,2024-05-17 08:31:25,FALSE
+TXN00102,C1200,Business,Transfer,Internal Transfer,2781.0,FL,Mobile App,2024-12-01 18:42:33,FALSE
+TXN00103,C1042,Checking,Transfer,Internal Transfer,579.11,MA,Mobile App,2024-10-30 20:22:14,FALSE
+TXN00104,C1106,Business,Cash Deposit,Branch Office,1480.67,NY,Branch,2024-05-28 13:32:50,FALSE
+TXN00105,C1010,Savings,Deposit,Payroll,4119.62,NJ,Online Banking,2024-05-15 19:03:09,FALSE
+TXN00106,C1079,Checking,Deposit,Payroll,3368.16,IL,Online Banking,2024-05-07 11:37:23,FALSE
+TXN00107,C1072,Checking,Withdrawal,ATM Withdrawal,400,IL,ATM,2024-09-20 21:34:04,FALSE
+TXN00108,C1138,Savings,POS Purchase,Walmart,702.25,WA,POS Terminal,2024-03-10 08:22:21,FALSE
+TXN00109,C1149,Savings,POS Purchase,Walmart,479.27,MA,POS Terminal,2024-10-09 22:31:55,FALSE
+TXN00110,C1202,Savings,Transfer,Internal Transfer,1186.33,CO,Mobile App,2024-03-14 19:39:45,FALSE
+TXN00111,C1066,Checking,Cash Deposit,Branch Office,208.12,GA,Branch,2024-09-23 17:58:21,FALSE
+TXN00112,C1185,Business,Cash Deposit,Branch Office,1948.26,NY,Branch,2024-09-14 23:08:38,FALSE
+TXN00113,C1085,Business,Withdrawal,ATM Withdrawal,100,GA,ATM,2024-04-30 02:44:31,FALSE
+TXN00114,C1171,Savings,Withdrawal,ATM Withdrawal,100,GA,ATM,2024-02-19 10:24:29,FALSE
+TXN00115,C1050,Savings,Cash Deposit,Branch Office,3451.13,TX,Branch,2024-08-27 01:00:53,FALSE
+TXN00116,C1146,Savings,Transfer,Internal Transfer,946.43,FL,Mobile App,2024-06-15 22:50:52,FALSE
+TXN00117,C1202,Business,Online Payment,Utility Payment,374.67,NJ,Online Banking,2024-09-19 09:18:08,FALSE
+TXN00118,C1055,Business,Transfer,Internal Transfer,1993.61,WA,Mobile App,2024-07-19 04:21:39,FALSE
+TXN00119,C1170,Business,Online Payment,Utility Payment,79.24,FL,Online Banking,2024-09-18 06:54:36,FALSE
+TXN00120,C1080,Checking,Deposit,Payroll,317.24,FL,Online Banking,2024-07-03 12:35:30,FALSE
+TXN00121,C1157,Checking,Transfer,Internal Transfer,2664.1,CO,Mobile App,2024-03-16 12:16:03,FALSE
+TXN00122,C1184,Business,Transfer,Internal Transfer,1228.98,TX,Mobile App,2024-09-11 18:54:13,FALSE
+TXN00123,C1177,Checking,POS Purchase,Starbucks,178.98,GA,POS Terminal,2024-06-29 09:55:07,FALSE
+TXN00124,C1013,Business,Deposit,Payroll,2391.02,NJ,Online Banking,2024-09-16 06:16:31,FALSE
+TXN00125,C1136,Business,Online Payment,Utility Payment,760.28,NJ,Online Banking,2024-08-25 22:20:00,FALSE
+TXN00126,C1209,Business,Online Payment,Airbnb,665.3,GA,Online Banking,2024-06-22 04:12:57,FALSE
+TXN00127,C1041,Business,Transfer,Internal Transfer,814.62,FL,Mobile App,2024-11-22 04:05:22,FALSE
+TXN00128,C1164,Savings,Online Payment,Airbnb,503.27,WA,Online Banking,2024-06-19 19:54:35,FALSE
+TXN00129,C1020,Business,Withdrawal,ATM Withdrawal,100,MA,ATM,2024-05-04 03:54:32,FALSE
+TXN00130,C1139,Checking,Deposit,Payroll,1310.06,TX,Online Banking,2024-10-01 08:18:13,FALSE
+TXN00131,C1055,Checking,Transfer,Internal Transfer,1026.1,NJ,Mobile App,2024-06-10 11:17:48,FALSE
+TXN00132,C1016,Checking,Transfer,Internal Transfer,2719.27,CO,Mobile App,2024-09-27 02:44:38,FALSE
+TXN00133,C1006,Business,Transfer,Internal Transfer,67.39,MA,Mobile App,2024-04-25 23:16:17,FALSE
+TXN00134,C1193,Savings,Transfer,Internal Transfer,1490.28,WA,Mobile App,2024-06-18 06:17:08,FALSE
+TXN00135,C1125,Checking,Transfer,Internal Transfer,2023.18,IL,Mobile App,2024-10-08 05:51:34,FALSE
+TXN00136,C1043,Savings,Deposit,Payroll,4553.26,CO,Online Banking,2024-08-07 04:30:52,FALSE
+TXN00137,C1170,Checking,POS Purchase,Starbucks,112.88,NJ,POS Terminal,2024-03-11 13:50:14,FALSE
+TXN00138,C1013,Savings,Transfer,Internal Transfer,674.4,MA,Mobile App,2024-05-11 01:43:59,FALSE
+TXN00139,C1195,Savings,Withdrawal,ATM Withdrawal,100,NY,ATM,2024-07-01 15:34:38,FALSE
+TXN00140,C1005,Business,Online Payment,Amazon,799.93,MA,Online Banking,2024-03-28 01:54:07,FALSE
+TXN00141,C1167,Checking,Cash Deposit,Branch Office,3820.32,FL,Branch,2024-03-18 10:10:34,FALSE
+TXN00142,C1006,Business,Deposit,Payroll,805.86,NY,Online Banking,2024-08-07 00:34:38,FALSE
+TXN00143,C1056,Savings,Cash Deposit,Branch Office,3881.11,TX,Branch,2024-08-23 07:19:45,FALSE
+TXN00144,C1156,Business,Cash Deposit,Branch Office,3933.4,TX,Branch,2024-04-30 19:05:34,FALSE
+TXN00145,C1028,Business,POS Purchase,Best Buy,462.76,IL,POS Terminal,2024-06-03 01:05:14,FALSE
+TXN00146,C1184,Checking,POS Purchase,Netflix,554.04,FL,POS Terminal,2024-02-09 13:47:20,FALSE
+TXN00147,C1179,Savings,Cash Deposit,Branch Office,4021.89,CO,Branch,2024-10-30 22:41:24,FALSE
+TXN00148,C1011,Savings,Online Payment,Airbnb,530.91,NY,Online Banking,2024-07-15 11:53:46,FALSE
+TXN00149,C1166,Savings,POS Purchase,Starbucks,658.75,NY,POS Terminal,2024-06-17 08:43:51,FALSE
+TXN00150,C1093,Business,Transfer,Internal Transfer,1334.69,GA,Mobile App,2024-09-09 14:42:09,FALSE
+TXN00151,C1070,Business,Online Payment,Airbnb,374.57,CO,Online Banking,2024-04-14 05:37:39,FALSE
+TXN00152,C1083,Checking,POS Purchase,Best Buy,705.9,FL,POS Terminal,2024-10-18 10:56:45,FALSE
+TXN00153,C1119,Business,Online Payment,Airbnb,272.44,NJ,Online Banking,2024-11-26 11:27:19,FALSE
+TXN00154,C1084,Checking,Transfer,Internal Transfer,1096.73,WA,Mobile App,2024-05-12 04:11:16,FALSE
+TXN00155,C1072,Business,Cash Deposit,Branch Office,2867.8,GA,Branch,2024-03-15 04:46:29,FALSE
+TXN00156,C1022,Checking,Cash Deposit,Branch Office,2545.17,FL,Branch,2024-09-25 04:56:44,FALSE
+TXN00157,C1122,Business,Cash Deposit,Branch Office,2351.24,CA,Branch,2024-02-06 03:19:12,FALSE
+TXN00158,C1076,Checking,Transfer,Internal Transfer,953.31,CO,Mobile App,2024-05-23 07:31:11,FALSE
+TXN00159,C1122,Business,Online Payment,Utility Payment,343.28,GA,Online Banking,2024-05-08 11:11:54,FALSE
+TXN00160,C1091,Business,Transfer,Internal Transfer,954.54,FL,Mobile App,2024-02-16 20:35:39,FALSE
+TXN00161,C1185,Checking,Withdrawal,ATM Withdrawal,400,TX,ATM,2024-03-15 09:17:28,FALSE
+TXN00162,C1056,Business,Transfer,Internal Transfer,2187.53,GA,Mobile App,2024-08-19 18:29:34,FALSE
+TXN00163,C1073,Checking,Deposit,Internal Transfer,1291.92,TX,Online Banking,2024-04-27 09:20:17,FALSE
+TXN00164,C1004,Business,Online Payment,Netflix,223.08,CA,Online Banking,2024-08-02 21:40:45,FALSE
+TXN00165,C1075,Business,Deposit,Internal Transfer,692.42,CA,Online Banking,2024-08-10 22:39:58,FALSE
+TXN00166,C1073,Savings,Transfer,Internal Transfer,1055.08,CA,Mobile App,2024-04-08 01:16:08,FALSE
+TXN00167,C1123,Checking,POS Purchase,Starbucks,395.94,CO,POS Terminal,2024-09-01 10:51:33,FALSE
+TXN00168,C1176,Checking,Deposit,Payroll,4093.48,WA,Online Banking,2024-02-03 01:56:36,FALSE
+TXN00169,C1064,Checking,Online Payment,Airbnb,487.02,CO,Online Banking,2024-03-28 15:33:23,FALSE
+TXN00170,C1199,Business,Transfer,Internal Transfer,2730.09,WA,Mobile App,2024-11-30 01:20:03,FALSE
+TXN00171,C1151,Savings,Withdrawal,ATM Withdrawal,500,NY,ATM,2024-10-23 05:13:30,FALSE
+TXN00172,C1054,Business,Deposit,Internal Transfer,3370.06,TX,Online Banking,2024-04-03 03:42:19,FALSE
+TXN00173,C1045,Business,POS Purchase,Target,7.13,NJ,POS Terminal,2024-09-24 17:24:16,FALSE
+TXN00174,C1153,Savings,Withdrawal,ATM Withdrawal,80,WA,ATM,2024-10-01 13:18:21,FALSE
+TXN00175,C1073,Business,Transfer,Internal Transfer,2077.79,WA,Mobile App,2024-11-01 23:05:21,FALSE
+TXN00176,C1203,Business,Online Payment,Netflix,342.99,GA,Online Banking,2024-03-28 07:22:33,FALSE
+TXN00177,C1166,Checking,Withdrawal,ATM Withdrawal,40,CA,ATM,2024-03-05 10:30:44,FALSE
+TXN00178,C1203,Savings,Online Payment,Utility Payment,354.13,NJ,Online Banking,2024-09-24 10:56:38,FALSE
+TXN00179,C1078,Business,Transfer,Internal Transfer,1526.39,NJ,Mobile App,2024-06-19 00:12:30,FALSE
+TXN00180,C1021,Business,POS Purchase,Starbucks,588.95,CO,POS Terminal,2024-04-07 05:35:52,FALSE
+TXN00181,C1007,Checking,Deposit,Payroll,4997.95,WA,Online Banking,2024-08-11 19:00:40,FALSE
+TXN00182,C1011,Checking,Transfer,Internal Transfer,2752.41,TX,Mobile App,2024-08-15 07:40:03,FALSE
+TXN00183,C1112,Business,Transfer,Internal Transfer,1436.53,IL,Mobile App,2024-05-09 10:39:33,FALSE
+TXN00184,C1083,Business,POS Purchase,Target,267.19,NJ,POS Terminal,2024-04-21 22:23:04,FALSE
+TXN00185,C1170,Savings,Online Payment,Amazon,366.59,MA,Online Banking,2024-04-08 00:31:40,FALSE
+TXN00186,C1083,Checking,Transfer,Internal Transfer,1990.1,GA,Mobile App,2024-06-28 09:55:53,FALSE
+TXN00187,C1106,Checking,Deposit,Internal Transfer,3188.64,NJ,Online Banking,2024-08-30 21:13:55,FALSE
+TXN00188,C1114,Checking,Deposit,Internal Transfer,2836.25,WA,Online Banking,2024-06-19 03:32:16,FALSE
+TXN00189,C1179,Savings,POS Purchase,Amazon,778.65,CO,POS Terminal,2024-11-06 10:08:38,FALSE
+TXN00190,C1062,Business,Deposit,Internal Transfer,2844.03,GA,Online Banking,2024-06-07 10:44:55,FALSE
+TXN00191,C1024,Checking,POS Purchase,Shell Gas,757.91,TX,POS Terminal,2024-07-12 13:11:46,FALSE
+TXN00192,C1184,Savings,Online Payment,Utility Payment,335.31,NJ,Online Banking,2024-07-02 09:24:26,FALSE
+TXN00193,C1063,Savings,Online Payment,Netflix,309.95,CO,Online Banking,2024-07-16 09:08:54,FALSE
+TXN00194,C1192,Checking,POS Purchase,Best Buy,619.28,IL,POS Terminal,2024-05-11 23:52:00,FALSE
+TXN00195,C1202,Business,Withdrawal,ATM Withdrawal,100,WA,ATM,2024-11-21 05:50:28,FALSE
+TXN00196,C1151,Business,Cash Deposit,Branch Office,4353.25,NJ,Branch,2024-07-28 03:56:05,FALSE
+TXN00197,C1124,Savings,Withdrawal,ATM Withdrawal,300,MA,ATM,2024-12-03 17:16:30,FALSE
+TXN00198,C1049,Business,Deposit,Internal Transfer,1321.1,IL,Online Banking,2024-01-17 22:49:20,FALSE
+TXN00199,C1082,Business,Transfer,Internal Transfer,1188.93,TX,Mobile App,2024-07-11 08:47:51,FALSE
+TXN00200,C1010,Checking,Online Payment,Utility Payment,696.41,NJ,Online Banking,2024-02-08 17:22:49,FALSE
+TXN00201,C1135,Savings,POS Purchase,Target,330.93,TX,POS Terminal,2024-01-30 01:26:59,FALSE
+TXN00202,C1121,Savings,Withdrawal,ATM Withdrawal,40,MA,ATM,2024-11-27 00:23:49,FALSE
+TXN00203,C1173,Business,Transfer,Internal Transfer,1899.06,NJ,Mobile App,2024-12-04 19:11:56,FALSE
+TXN00204,C1139,Checking,Online Payment,Amazon,191.64,WA,Online Banking,2024-03-29 08:19:32,FALSE
+TXN00205,C1192,Checking,Transfer,Internal Transfer,2293.09,NY,Mobile App,2024-06-21 07:23:01,FALSE
+TXN00206,C1043,Business,Withdrawal,ATM Withdrawal,20,MA,ATM,2024-11-05 04:35:41,FALSE
+TXN00207,C1015,Savings,Withdrawal,ATM Withdrawal,200,TX,ATM,2024-04-04 20:05:06,FALSE
+TXN00208,C1136,Savings,Online Payment,Netflix,140.14,NY,Online Banking,2024-08-24 16:52:30,FALSE
+TXN00209,C1098,Business,Cash Deposit,Branch Office,2588.8,CO,Branch,2024-02-25 13:57:13,FALSE
+TXN00210,C1060,Savings,Cash Deposit,Branch Office,2405.94,CA,Branch,2024-12-15 02:26:05,FALSE
+TXN00211,C1206,Savings,Withdrawal,ATM Withdrawal,40,NJ,ATM,2024-05-14 04:54:18,FALSE
+TXN00212,C1151,Savings,Cash Deposit,Branch Office,3513.5,NJ,Branch,2024-11-24 06:48:13,FALSE
+TXN00213,C1078,Checking,Transfer,Internal Transfer,364.63,IL,Mobile App,2024-08-10 02:42:21,FALSE
+TXN00214,C1092,Business,Withdrawal,ATM Withdrawal,20,IL,ATM,2024-04-16 14:20:33,FALSE
+TXN00215,C1003,Business,Cash Deposit,Branch Office,4570.96,NJ,Branch,2024-11-19 10:37:16,FALSE
+TXN00216,C1074,Checking,Online Payment,Utility Payment,179.11,FL,Online Banking,2024-08-29 03:07:30,FALSE
+TXN00217,C1065,Business,Cash Deposit,Branch Office,3215.59,CA,Branch,2024-04-29 23:27:47,FALSE
+TXN00218,C1202,Savings,POS Purchase,Netflix,295.06,TX,POS Terminal,2024-02-05 00:06:14,FALSE
+TXN00219,C1076,Savings,Cash Deposit,Branch Office,1043.07,TX,Branch,2024-11-01 10:49:50,FALSE
+TXN00220,C1139,Savings,Online Payment,Utility Payment,665.23,WA,Online Banking,2024-12-20 23:33:13,FALSE
+TXN00221,C1124,Savings,Cash Deposit,Branch Office,4060.32,NJ,Branch,2024-01-30 05:50:27,FALSE
+TXN00222,C1037,Checking,Cash Deposit,Branch Office,4842.89,GA,Branch,2024-05-22 01:16:14,FALSE
+TXN00223,C1024,Savings,POS Purchase,Best Buy,431.57,NJ,POS Terminal,2024-05-23 03:28:02,FALSE
+TXN00224,C1173,Business,Cash Deposit,Branch Office,3005.89,MA,Branch,2024-02-12 01:51:31,FALSE
+TXN00225,C1173,Checking,Transfer,Internal Transfer,1877.66,GA,Mobile App,2024-05-07 09:14:24,FALSE
+TXN00226,C1157,Checking,Cash Deposit,Branch Office,3249.94,NJ,Branch,2024-12-19 04:06:25,FALSE
+TXN00227,C1180,Savings,Cash Deposit,Branch Office,760.04,CA,Branch,2024-01-15 10:50:31,FALSE
+TXN00228,C1078,Savings,POS Purchase,Walmart,191.67,GA,POS Terminal,2024-02-22 16:28:50,FALSE
+TXN00229,C1100,Savings,Withdrawal,ATM Withdrawal,500,TX,ATM,2024-12-09 20:39:16,FALSE
+TXN00230,C1107,Business,POS Purchase,Shell Gas,494.44,WA,POS Terminal,2024-01-13 16:56:16,FALSE
+TXN00231,C1177,Savings,Deposit,Internal Transfer,2334.54,FL,Online Banking,2024-11-28 05:22:25,FALSE
+TXN00232,C1093,Checking,Cash Deposit,Branch Office,2813.44,MA,Branch,2024-01-24 12:22:03,FALSE
+TXN00233,C1102,Savings,Deposit,Payroll,4755.25,NJ,Online Banking,2024-02-05 14:27:29,FALSE
+TXN00234,C1170,Checking,Cash Deposit,Branch Office,442.78,MA,Branch,2024-04-04 14:13:35,FALSE
+TXN00235,C1033,Business,Deposit,Payroll,4183.13,GA,Online Banking,2024-03-21 10:50:47,FALSE
+TXN00236,C1151,Checking,Deposit,Internal Transfer,3916.97,CO,Online Banking,2024-01-02 02:25:45,FALSE
+TXN00237,C1071,Checking,Deposit,Internal Transfer,4032.87,NY,Online Banking,2024-09-13 17:30:13,FALSE
+TXN00238,C1007,Checking,POS Purchase,Costco,633.04,FL,POS Terminal,2024-08-16 16:30:25,FALSE
+TXN00239,C1083,Checking,Deposit,Internal Transfer,451.52,IL,Online Banking,2024-07-23 07:28:21,FALSE
+TXN00240,C1030,Business,POS Purchase,Shell Gas,361.38,MA,POS Terminal,2024-07-18 07:43:28,FALSE
+TXN00241,C1152,Checking,Transfer,Internal Transfer,2838.98,CA,Mobile App,2024-10-09 10:23:45,FALSE
+TXN00242,C1201,Business,Online Payment,Utility Payment,369.14,CA,Online Banking,2024-01-24 14:56:01,FALSE
+TXN00243,C1123,Savings,Transfer,Internal Transfer,1496.29,NJ,Mobile App,2024-01-29 12:58:59,FALSE
+TXN00244,C1021,Savings,Online Payment,Netflix,57.22,WA,Online Banking,2024-08-30 11:03:38,FALSE
+TXN00245,C1163,Business,Online Payment,Utility Payment,307.82,CO,Online Banking,2024-07-25 01:08:53,FALSE
+TXN00246,C1076,Savings,Online Payment,Airbnb,83.85,NY,Online Banking,2024-11-27 04:36:15,FALSE
+TXN00247,C1168,Business,Online Payment,Netflix,346.91,FL,Online Banking,2024-06-09 17:01:19,FALSE
+TXN00248,C1087,Savings,Transfer,Internal Transfer,2202.36,MA,Mobile App,2024-06-14 17:43:43,FALSE
+TXN00249,C1081,Business,Withdrawal,ATM Withdrawal,60,NJ,ATM,2024-01-27 01:43:40,FALSE
+TXN00250,C1024,Checking,POS Purchase,Starbucks,81.77,MA,POS Terminal,2024-11-11 06:14:17,FALSE

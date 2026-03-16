@@ -1,0 +1,501 @@
+patient_id,hospital,diagnosis,treatment_type,treatment_cost_usd,insurance_provider,risk_score,region,admission_date
+P00001,Stanford Health Care,Diabetes,Surgery,18967.73,Kaiser,0.13,NY,2024-06-14
+P00002,Cleveland Clinic,Cancer Screening,Specialist Consultation,4451.02,UnitedHealth,0.27,WA,2024-09-16
+P00003,Cleveland Clinic,Asthma,Medication Therapy,16571.67,Kaiser,0.58,NY,2024-01-31
+P00004,Mount Sinai,Orthopedic Injury,Specialist Consultation,1122.34,Aetna,0.54,MA,2024-04-23
+P00005,Mount Sinai,Cardiac Disease,Diagnostic Imaging,16359.3,Cigna,0.14,CA,2024-10-13
+P00006,Johns Hopkins,Respiratory Infection,Specialist Consultation,1380.1,Cigna,0.47,NJ,2024-10-15
+P00007,Mount Sinai,Asthma,Surgery,6135.39,Kaiser,0.32,NJ,2024-07-04
+P00008,Mass General Hospital,Gastrointestinal Issue,Surgery,14643.02,UnitedHealth,0.51,TX,2024-06-24
+P00009,NewYork-Presbyterian,Cancer Screening,Medication Therapy,3209.29,Humana,0.12,IL,2024-06-24
+P00010,Cedars-Sinai,Respiratory Infection,Outpatient Procedure,13966.85,UnitedHealth,0.81,MA,2024-06-23
+P00011,Cleveland Clinic,Diabetes,Lab Testing,14001.43,Humana,0.57,NJ,2024-08-30
+P00012,UCLA Medical Center,Diabetes,Outpatient Procedure,14389.23,Cigna,0.2,CA,2024-05-25
+P00013,Mass General Hospital,Hypertension,Diagnostic Imaging,1367.3,BlueCross,0.4,NJ,2024-09-09
+P00014,Stanford Health Care,Neurological Disorder,Lab Testing,3494.05,Aetna,0.79,MA,2024-02-11
+P00015,UCLA Medical Center,Cancer Screening,Diagnostic Imaging,8422.87,Aetna,0.12,TX,2024-12-27
+P00016,Mayo Clinic,Respiratory Infection,Physical Therapy,13238.63,Cigna,0.3,TX,2024-04-28
+P00017,Cedars-Sinai,Gastrointestinal Issue,Emergency Treatment,10784.9,Aetna,0.67,NY,2024-08-02
+P00018,Houston Methodist,Cancer Screening,Specialist Consultation,18010.75,BlueCross,0.4,NJ,2024-08-21
+P00019,Johns Hopkins,Cardiac Disease,Diagnostic Imaging,8128.76,BlueCross,0.2,IL,2024-11-20
+P00020,Mayo Clinic,Gastrointestinal Issue,Physical Therapy,1241.0,Kaiser,0.14,IL,2024-11-03
+P00021,Johns Hopkins,Gastrointestinal Issue,Specialist Consultation,704.92,Aetna,0.62,IL,2024-11-10
+P00022,Cleveland Clinic,Cardiac Disease,Outpatient Procedure,7410.44,BlueCross,0.48,MA,2024-11-04
+P00023,UCLA Medical Center,Orthopedic Injury,Outpatient Procedure,3053.53,Humana,0.2,NY,2024-02-13
+P00024,Houston Methodist,Kidney Disease,Physical Therapy,19029.51,Humana,0.54,NY,2024-04-15
+P00025,Cleveland Clinic,Orthopedic Injury,Emergency Treatment,6102.18,Aetna,0.37,FL,2024-09-27
+P00026,Houston Methodist,Kidney Disease,Diagnostic Imaging,10923.03,Kaiser,0.78,FL,2024-09-29
+P00027,Johns Hopkins,Asthma,Outpatient Procedure,16402.99,Cigna,0.71,NY,2024-05-02
+P00028,Johns Hopkins,Gastrointestinal Issue,Emergency Treatment,9550.35,BlueCross,0.78,IL,2024-05-23
+P00029,Cleveland Clinic,Asthma,Outpatient Procedure,1794.65,Aetna,0.35,NJ,2024-07-05
+P00030,Cedars-Sinai,Diabetes,Outpatient Procedure,19707.93,Humana,0.36,CA,2024-11-15
+P00031,Stanford Health Care,Asthma,Outpatient Procedure,2574.09,Aetna,0.44,IL,2024-12-04
+P00032,Stanford Health Care,Respiratory Infection,Specialist Consultation,16056.31,Humana,0.9,TX,2024-02-14
+P00033,Mayo Clinic,Hypertension,Outpatient Procedure,19863.62,Humana,0.18,NJ,2024-03-28
+P00034,Mount Sinai,Neurological Disorder,Physical Therapy,18761.86,UnitedHealth,0.06,CA,2024-12-02
+P00035,Mount Sinai,Cancer Screening,Diagnostic Imaging,15040.03,Aetna,0.08,FL,2024-09-26
+P00036,Cedars-Sinai,Kidney Disease,Lab Testing,10123.01,Kaiser,0.43,TX,2024-05-29
+P00037,UCLA Medical Center,Respiratory Infection,Specialist Consultation,18218.34,Kaiser,0.17,TX,2024-02-01
+P00038,NewYork-Presbyterian,Hypertension,Medication Therapy,10308.83,Aetna,0.21,NJ,2024-09-25
+P00039,Houston Methodist,Diabetes,Emergency Treatment,14558.83,Humana,0.52,NJ,2024-11-12
+P00040,Mayo Clinic,Asthma,Diagnostic Imaging,17687.91,Cigna,0.09,CA,2024-02-24
+P00041,Mayo Clinic,Cardiac Disease,Outpatient Procedure,9153.08,Cigna,0.6,FL,2024-09-16
+P00042,Houston Methodist,Neurological Disorder,Outpatient Procedure,5688.27,Kaiser,0.9,MA,2024-12-20
+P00043,Johns Hopkins,Respiratory Infection,Physical Therapy,17876.55,BlueCross,0.16,NJ,2024-10-13
+P00044,Johns Hopkins,Cancer Screening,Surgery,1636.41,Aetna,0.65,CA,2024-06-10
+P00045,UCLA Medical Center,Hypertension,Lab Testing,18802.19,Aetna,0.92,FL,2024-03-20
+P00046,NewYork-Presbyterian,Hypertension,Diagnostic Imaging,8085.49,Aetna,0.69,WA,2024-02-18
+P00047,UCLA Medical Center,Kidney Disease,Surgery,8541.27,Humana,0.38,IL,2024-06-22
+P00048,Mayo Clinic,Cancer Screening,Emergency Treatment,9281.68,Kaiser,0.61,CA,2024-10-10
+P00049,Johns Hopkins,Cardiac Disease,Surgery,19704.65,Cigna,0.29,TX,2024-02-27
+P00050,Stanford Health Care,Orthopedic Injury,Specialist Consultation,15164.38,Aetna,0.53,NJ,2024-05-18
+P00051,Mass General Hospital,Diabetes,Physical Therapy,6675.56,BlueCross,0.86,MA,2024-12-24
+P00052,Mass General Hospital,Cardiac Disease,Diagnostic Imaging,12761.9,UnitedHealth,0.29,CA,2024-01-09
+P00053,Houston Methodist,Cancer Screening,Lab Testing,428.62,Kaiser,0.17,FL,2024-08-20
+P00054,Mass General Hospital,Diabetes,Physical Therapy,19390.41,Aetna,0.89,MA,2024-02-26
+P00055,Mass General Hospital,Respiratory Infection,Physical Therapy,15238.07,Cigna,0.36,NY,2024-09-28
+P00056,Mayo Clinic,Neurological Disorder,Diagnostic Imaging,931.6,Kaiser,0.48,NJ,2024-05-08
+P00057,Stanford Health Care,Respiratory Infection,Specialist Consultation,13234.74,Kaiser,0.33,FL,2024-02-24
+P00058,Mount Sinai,Cancer Screening,Emergency Treatment,6985.55,UnitedHealth,0.8,NY,2024-04-27
+P00059,Mass General Hospital,Cancer Screening,Physical Therapy,12583.88,UnitedHealth,0.13,WA,2024-02-06
+P00060,Mass General Hospital,Gastrointestinal Issue,Diagnostic Imaging,13476.76,Humana,0.31,NJ,2024-09-16
+P00061,NewYork-Presbyterian,Diabetes,Lab Testing,3319.15,Cigna,0.92,IL,2024-04-04
+P00062,Mass General Hospital,Asthma,Emergency Treatment,882.05,Aetna,0.05,WA,2024-05-05
+P00063,Houston Methodist,Asthma,Diagnostic Imaging,9597.94,Kaiser,0.75,CA,2024-02-12
+P00064,Mount Sinai,Cancer Screening,Medication Therapy,16377.48,BlueCross,0.07,MA,2024-05-15
+P00065,Cedars-Sinai,Neurological Disorder,Physical Therapy,4809.63,Humana,0.85,WA,2024-11-18
+P00066,NewYork-Presbyterian,Hypertension,Lab Testing,14469.41,Humana,0.61,TX,2024-06-15
+P00067,Houston Methodist,Cancer Screening,Physical Therapy,16532.17,Kaiser,0.73,NY,2024-01-23
+P00068,Johns Hopkins,Cardiac Disease,Medication Therapy,11764.42,UnitedHealth,0.17,IL,2024-12-17
+P00069,NewYork-Presbyterian,Neurological Disorder,Medication Therapy,7657.04,Humana,0.07,FL,2024-02-23
+P00070,NewYork-Presbyterian,Cardiac Disease,Surgery,5423.1,Humana,0.52,NJ,2024-09-07
+P00071,Mass General Hospital,Asthma,Diagnostic Imaging,16222.53,Aetna,0.72,NJ,2024-05-09
+P00072,Cleveland Clinic,Respiratory Infection,Lab Testing,16941.52,UnitedHealth,0.61,FL,2024-09-09
+P00073,UCLA Medical Center,Orthopedic Injury,Lab Testing,12074.16,Kaiser,0.56,NY,2024-02-09
+P00074,Mass General Hospital,Cardiac Disease,Diagnostic Imaging,1401.09,Humana,0.49,MA,2024-09-03
+P00075,Cleveland Clinic,Neurological Disorder,Diagnostic Imaging,9424.77,Cigna,0.93,NJ,2024-08-25
+P00076,Cleveland Clinic,Neurological Disorder,Outpatient Procedure,5933.86,Cigna,0.4,FL,2024-01-09
+P00077,Mount Sinai,Neurological Disorder,Lab Testing,11713.15,Cigna,0.17,MA,2024-02-08
+P00078,Johns Hopkins,Respiratory Infection,Outpatient Procedure,14126.07,BlueCross,0.07,NY,2024-02-27
+P00079,Stanford Health Care,Orthopedic Injury,Physical Therapy,13695.44,BlueCross,0.36,IL,2024-09-08
+P00080,Mayo Clinic,Kidney Disease,Emergency Treatment,16836.57,BlueCross,0.16,FL,2024-03-02
+P00081,Mass General Hospital,Orthopedic Injury,Emergency Treatment,432.09,UnitedHealth,0.4,CA,2024-12-31
+P00082,Mass General Hospital,Diabetes,Lab Testing,18523.23,UnitedHealth,0.1,MA,2024-07-03
+P00083,Johns Hopkins,Orthopedic Injury,Specialist Consultation,18724.68,Kaiser,0.33,IL,2024-11-21
+P00084,Stanford Health Care,Neurological Disorder,Diagnostic Imaging,17708.48,Humana,0.12,WA,2024-08-07
+P00085,Mount Sinai,Orthopedic Injury,Outpatient Procedure,12375.3,UnitedHealth,0.87,TX,2024-08-18
+P00086,UCLA Medical Center,Orthopedic Injury,Lab Testing,9549.24,Cigna,0.72,MA,2024-03-28
+P00087,Mass General Hospital,Respiratory Infection,Specialist Consultation,13188.71,UnitedHealth,0.2,TX,2024-07-26
+P00088,NewYork-Presbyterian,Neurological Disorder,Diagnostic Imaging,4315.88,BlueCross,0.87,NJ,2024-02-08
+P00089,Johns Hopkins,Asthma,Surgery,2964.0,Aetna,0.36,CA,2024-08-06
+P00090,Mass General Hospital,Gastrointestinal Issue,Diagnostic Imaging,4934.71,UnitedHealth,0.72,WA,2024-06-12
+P00091,Houston Methodist,Asthma,Specialist Consultation,8394.89,Cigna,0.35,NY,2024-07-15
+P00092,UCLA Medical Center,Hypertension,Diagnostic Imaging,5694.82,UnitedHealth,0.29,FL,2024-09-12
+P00093,NewYork-Presbyterian,Cancer Screening,Lab Testing,8115.19,UnitedHealth,0.16,WA,2024-07-15
+P00094,NewYork-Presbyterian,Gastrointestinal Issue,Outpatient Procedure,15321.08,UnitedHealth,0.12,NJ,2024-12-29
+P00095,Cleveland Clinic,Asthma,Physical Therapy,5119.61,Aetna,0.52,CA,2024-08-17
+P00096,NewYork-Presbyterian,Cardiac Disease,Medication Therapy,13017.49,UnitedHealth,0.75,FL,2024-12-24
+P00097,Mass General Hospital,Hypertension,Lab Testing,18414.42,Kaiser,0.62,CA,2024-10-18
+P00098,Houston Methodist,Gastrointestinal Issue,Diagnostic Imaging,1592.97,BlueCross,0.28,NY,2024-02-20
+P00099,NewYork-Presbyterian,Orthopedic Injury,Emergency Treatment,10842.03,Humana,0.81,FL,2024-01-06
+P00100,Houston Methodist,Asthma,Medication Therapy,10620.3,BlueCross,0.68,MA,2024-08-31
+P00101,NewYork-Presbyterian,Cancer Screening,Surgery,631.39,Cigna,0.26,WA,2024-01-29
+P00102,Mayo Clinic,Kidney Disease,Specialist Consultation,4690.36,Cigna,0.66,FL,2024-07-08
+P00103,Houston Methodist,Cardiac Disease,Diagnostic Imaging,15981.87,BlueCross,0.92,MA,2024-01-04
+P00104,Johns Hopkins,Orthopedic Injury,Lab Testing,4770.01,UnitedHealth,0.91,NJ,2024-04-09
+P00105,Johns Hopkins,Respiratory Infection,Specialist Consultation,3908.8,Humana,0.1,TX,2024-11-08
+P00106,Mayo Clinic,Gastrointestinal Issue,Physical Therapy,1276.3,BlueCross,0.1,NY,2024-07-20
+P00107,UCLA Medical Center,Cardiac Disease,Surgery,7987.77,Aetna,0.35,TX,2024-04-04
+P00108,NewYork-Presbyterian,Diabetes,Lab Testing,18730.45,Humana,0.7,IL,2024-11-30
+P00109,Cleveland Clinic,Diabetes,Surgery,8960.22,Cigna,0.12,WA,2024-06-18
+P00110,Johns Hopkins,Cancer Screening,Emergency Treatment,11310.35,Cigna,0.79,WA,2024-03-04
+P00111,NewYork-Presbyterian,Asthma,Emergency Treatment,1175.3,Kaiser,0.88,FL,2024-02-14
+P00112,NewYork-Presbyterian,Diabetes,Specialist Consultation,7412.13,Aetna,0.78,WA,2024-06-14
+P00113,NewYork-Presbyterian,Cardiac Disease,Medication Therapy,7636.24,Cigna,0.23,CA,2024-01-21
+P00114,Mass General Hospital,Kidney Disease,Medication Therapy,6913.58,Cigna,0.72,IL,2024-11-06
+P00115,Cedars-Sinai,Cardiac Disease,Medication Therapy,6088.64,Aetna,0.15,NJ,2024-05-21
+P00116,Stanford Health Care,Respiratory Infection,Physical Therapy,15838.02,BlueCross,0.21,MA,2024-07-16
+P00117,Cedars-Sinai,Asthma,Emergency Treatment,15501.63,Cigna,0.46,CA,2024-12-20
+P00118,Mount Sinai,Asthma,Specialist Consultation,4106.77,UnitedHealth,0.63,NJ,2024-09-19
+P00119,Mount Sinai,Cancer Screening,Surgery,10983.41,UnitedHealth,0.29,CA,2024-10-09
+P00120,NewYork-Presbyterian,Respiratory Infection,Physical Therapy,2109.17,Aetna,0.17,NJ,2024-04-16
+P00121,Johns Hopkins,Neurological Disorder,Surgery,17847.0,Cigna,0.31,MA,2024-11-13
+P00122,Mass General Hospital,Asthma,Outpatient Procedure,5230.32,Aetna,0.22,FL,2024-07-09
+P00123,Cedars-Sinai,Asthma,Emergency Treatment,5770.81,UnitedHealth,0.41,FL,2024-03-19
+P00124,Cleveland Clinic,Respiratory Infection,Medication Therapy,10620.91,UnitedHealth,0.05,FL,2024-09-16
+P00125,Mayo Clinic,Orthopedic Injury,Diagnostic Imaging,18304.64,UnitedHealth,0.1,FL,2024-08-17
+P00126,Mount Sinai,Respiratory Infection,Lab Testing,7570.29,Humana,0.9,CA,2024-02-08
+P00127,Cedars-Sinai,Kidney Disease,Diagnostic Imaging,12003.71,UnitedHealth,0.38,TX,2024-11-22
+P00128,Mass General Hospital,Diabetes,Diagnostic Imaging,4238.73,UnitedHealth,0.79,WA,2024-01-23
+P00129,Cedars-Sinai,Orthopedic Injury,Surgery,7561.82,Aetna,0.08,NJ,2024-12-13
+P00130,Stanford Health Care,Cardiac Disease,Specialist Consultation,9773.44,Humana,0.55,CA,2024-10-07
+P00131,Mass General Hospital,Cancer Screening,Lab Testing,3441.05,Humana,0.33,NY,2024-11-30
+P00132,UCLA Medical Center,Cancer Screening,Specialist Consultation,14957.68,UnitedHealth,0.83,IL,2024-06-08
+P00133,Stanford Health Care,Asthma,Medication Therapy,4104.59,BlueCross,0.86,WA,2024-11-25
+P00134,Stanford Health Care,Gastrointestinal Issue,Emergency Treatment,16443.3,BlueCross,0.75,TX,2024-02-28
+P00135,Mount Sinai,Cancer Screening,Surgery,1223.57,Kaiser,0.61,IL,2024-01-08
+P00136,UCLA Medical Center,Orthopedic Injury,Physical Therapy,3599.38,Kaiser,0.2,CA,2024-09-15
+P00137,Johns Hopkins,Orthopedic Injury,Physical Therapy,7797.95,UnitedHealth,0.93,NJ,2024-02-25
+P00138,Stanford Health Care,Cardiac Disease,Physical Therapy,1256.82,Humana,0.76,FL,2024-06-10
+P00139,Johns Hopkins,Respiratory Infection,Physical Therapy,8208.79,Kaiser,0.25,WA,2024-11-13
+P00140,UCLA Medical Center,Cardiac Disease,Physical Therapy,3298.28,Aetna,0.92,FL,2024-09-22
+P00141,Mayo Clinic,Kidney Disease,Surgery,17700.48,BlueCross,0.59,MA,2024-01-22
+P00142,Cedars-Sinai,Asthma,Specialist Consultation,8517.42,BlueCross,0.64,NJ,2024-11-28
+P00143,Mayo Clinic,Diabetes,Outpatient Procedure,8879.38,BlueCross,0.26,NJ,2024-09-14
+P00144,Stanford Health Care,Cardiac Disease,Surgery,16248.48,Aetna,0.37,IL,2024-04-01
+P00145,Houston Methodist,Neurological Disorder,Medication Therapy,16085.18,UnitedHealth,0.62,CA,2024-02-16
+P00146,Houston Methodist,Cardiac Disease,Medication Therapy,15597.19,Kaiser,0.86,TX,2024-06-09
+P00147,Cedars-Sinai,Cardiac Disease,Diagnostic Imaging,17169.99,Aetna,0.93,NJ,2024-01-14
+P00148,Mount Sinai,Asthma,Surgery,19141.46,Cigna,0.6,MA,2024-05-27
+P00149,Cedars-Sinai,Orthopedic Injury,Outpatient Procedure,6612.01,Aetna,0.28,NJ,2024-03-22
+P00150,Cedars-Sinai,Neurological Disorder,Diagnostic Imaging,11919.38,Cigna,0.39,FL,2024-04-16
+P00151,Mass General Hospital,Kidney Disease,Specialist Consultation,8188.62,Aetna,0.76,MA,2024-04-03
+P00152,Mayo Clinic,Kidney Disease,Outpatient Procedure,15411.66,Kaiser,0.52,CA,2024-02-28
+P00153,Stanford Health Care,Kidney Disease,Lab Testing,19860.5,BlueCross,0.94,TX,2024-05-09
+P00154,Cleveland Clinic,Respiratory Infection,Diagnostic Imaging,6750.41,Aetna,0.6,NY,2024-07-03
+P00155,Mass General Hospital,Orthopedic Injury,Emergency Treatment,16432.52,Humana,0.05,NY,2024-05-31
+P00156,Cedars-Sinai,Cancer Screening,Specialist Consultation,3157.42,Kaiser,0.38,NY,2024-04-23
+P00157,Cedars-Sinai,Diabetes,Medication Therapy,9870.21,UnitedHealth,0.05,IL,2024-03-08
+P00158,UCLA Medical Center,Neurological Disorder,Diagnostic Imaging,2305.98,BlueCross,0.58,TX,2024-06-04
+P00159,NewYork-Presbyterian,Hypertension,Physical Therapy,7451.44,UnitedHealth,0.89,FL,2024-04-14
+P00160,Cleveland Clinic,Cardiac Disease,Physical Therapy,3156.4,Humana,0.75,WA,2024-12-28
+P00161,Mayo Clinic,Neurological Disorder,Emergency Treatment,19349.28,Kaiser,0.63,NJ,2024-05-15
+P00162,NewYork-Presbyterian,Asthma,Physical Therapy,18755.71,UnitedHealth,0.09,NY,2024-11-04
+P00163,Mount Sinai,Diabetes,Surgery,3876.03,UnitedHealth,0.6,FL,2024-07-26
+P00164,Houston Methodist,Gastrointestinal Issue,Specialist Consultation,8380.93,Kaiser,0.21,MA,2024-03-13
+P00165,Mayo Clinic,Respiratory Infection,Medication Therapy,6145.27,BlueCross,0.81,NJ,2024-02-02
+P00166,NewYork-Presbyterian,Hypertension,Diagnostic Imaging,14886.75,UnitedHealth,0.29,NY,2024-02-11
+P00167,Mass General Hospital,Diabetes,Lab Testing,6843.22,Humana,0.55,WA,2024-03-04
+P00168,Houston Methodist,Orthopedic Injury,Lab Testing,15811.31,Humana,0.89,FL,2024-12-17
+P00169,Mayo Clinic,Hypertension,Lab Testing,17624.89,Aetna,0.81,FL,2024-02-13
+P00170,UCLA Medical Center,Asthma,Specialist Consultation,14973.8,Cigna,0.59,WA,2024-03-22
+P00171,Houston Methodist,Respiratory Infection,Outpatient Procedure,18449.22,Kaiser,0.68,NY,2024-11-18
+P00172,Johns Hopkins,Gastrointestinal Issue,Lab Testing,19122.79,Aetna,0.4,CA,2024-08-11
+P00173,Mount Sinai,Diabetes,Medication Therapy,18233.64,UnitedHealth,0.15,TX,2024-10-16
+P00174,Mayo Clinic,Diabetes,Medication Therapy,19552.68,Aetna,0.67,NY,2024-06-25
+P00175,Mayo Clinic,Cardiac Disease,Emergency Treatment,1542.99,Aetna,0.79,CA,2024-12-22
+P00176,Cleveland Clinic,Asthma,Diagnostic Imaging,18897.65,Aetna,0.15,NY,2024-12-30
+P00177,Mass General Hospital,Respiratory Infection,Surgery,1931.9,Aetna,0.14,FL,2024-11-20
+P00178,Stanford Health Care,Orthopedic Injury,Medication Therapy,6518.95,Cigna,0.28,MA,2024-05-30
+P00179,UCLA Medical Center,Kidney Disease,Outpatient Procedure,14372.09,Cigna,0.61,NY,2024-01-25
+P00180,Houston Methodist,Cardiac Disease,Emergency Treatment,818.72,BlueCross,0.68,FL,2024-07-30
+P00181,Cleveland Clinic,Gastrointestinal Issue,Lab Testing,17272.34,Aetna,0.44,FL,2024-12-31
+P00182,Mayo Clinic,Diabetes,Emergency Treatment,15291.18,BlueCross,0.14,TX,2024-05-27
+P00183,Houston Methodist,Orthopedic Injury,Physical Therapy,11932.59,Cigna,0.78,FL,2024-09-10
+P00184,Cleveland Clinic,Respiratory Infection,Surgery,3482.66,Humana,0.34,CA,2024-09-12
+P00185,Cleveland Clinic,Cancer Screening,Medication Therapy,18584.39,Cigna,0.24,MA,2024-07-24
+P00186,Houston Methodist,Hypertension,Specialist Consultation,18044.07,Humana,0.26,NJ,2024-08-07
+P00187,Cedars-Sinai,Diabetes,Emergency Treatment,10724.58,Kaiser,0.34,TX,2024-03-05
+P00188,UCLA Medical Center,Hypertension,Outpatient Procedure,13309.58,BlueCross,0.67,MA,2024-08-18
+P00189,UCLA Medical Center,Respiratory Infection,Diagnostic Imaging,4774.28,Kaiser,0.22,MA,2024-10-23
+P00190,Cedars-Sinai,Hypertension,Physical Therapy,16565.18,Aetna,0.7,IL,2024-12-26
+P00191,Johns Hopkins,Orthopedic Injury,Surgery,4877.02,Aetna,0.92,CA,2024-03-23
+P00192,Mount Sinai,Orthopedic Injury,Lab Testing,7807.81,BlueCross,0.3,CA,2024-04-10
+P00193,Mass General Hospital,Asthma,Specialist Consultation,18245.77,BlueCross,0.08,WA,2024-11-22
+P00194,Houston Methodist,Orthopedic Injury,Outpatient Procedure,13930.1,UnitedHealth,0.18,WA,2024-08-11
+P00195,Stanford Health Care,Gastrointestinal Issue,Specialist Consultation,14870.73,Aetna,0.65,FL,2024-01-03
+P00196,Cleveland Clinic,Respiratory Infection,Specialist Consultation,3793.8,Cigna,0.28,CA,2024-12-13
+P00197,Stanford Health Care,Hypertension,Lab Testing,4999.44,BlueCross,0.48,NY,2024-08-02
+P00198,Houston Methodist,Hypertension,Emergency Treatment,17199.04,UnitedHealth,0.4,NJ,2024-11-14
+P00199,Houston Methodist,Asthma,Physical Therapy,955.28,Humana,0.75,FL,2024-02-24
+P00200,Cedars-Sinai,Respiratory Infection,Diagnostic Imaging,7094.51,Humana,0.48,NY,2024-09-22
+P00201,UCLA Medical Center,Neurological Disorder,Emergency Treatment,15892.82,BlueCross,0.72,NJ,2024-11-23
+P00202,Mount Sinai,Cancer Screening,Surgery,19807.5,Humana,0.94,IL,2024-04-17
+P00203,Mass General Hospital,Cancer Screening,Specialist Consultation,1321.04,UnitedHealth,0.06,WA,2024-11-22
+P00204,UCLA Medical Center,Gastrointestinal Issue,Lab Testing,12645.58,UnitedHealth,0.25,WA,2024-08-03
+P00205,Stanford Health Care,Respiratory Infection,Diagnostic Imaging,19435.72,Aetna,0.17,CA,2024-09-26
+P00206,Houston Methodist,Asthma,Physical Therapy,4024.81,Cigna,0.65,WA,2024-11-20
+P00207,Houston Methodist,Hypertension,Outpatient Procedure,19923.55,Cigna,0.76,FL,2024-08-27
+P00208,Mass General Hospital,Cancer Screening,Physical Therapy,14143.17,BlueCross,0.05,MA,2024-05-16
+P00209,Mass General Hospital,Kidney Disease,Outpatient Procedure,5050.35,BlueCross,0.44,CA,2024-07-02
+P00210,Mount Sinai,Orthopedic Injury,Specialist Consultation,17960.87,UnitedHealth,0.13,IL,2024-12-03
+P00211,UCLA Medical Center,Gastrointestinal Issue,Medication Therapy,10706.83,Humana,0.06,CA,2024-03-12
+P00212,Cedars-Sinai,Cardiac Disease,Physical Therapy,6001.25,Aetna,0.22,NJ,2024-12-01
+P00213,Johns Hopkins,Cancer Screening,Physical Therapy,15740.73,Kaiser,0.85,CA,2024-06-26
+P00214,Houston Methodist,Orthopedic Injury,Diagnostic Imaging,18052.53,BlueCross,0.67,CA,2024-12-08
+P00215,Cleveland Clinic,Neurological Disorder,Surgery,13490.32,Cigna,0.43,TX,2024-08-12
+P00216,Mayo Clinic,Respiratory Infection,Outpatient Procedure,9962.92,Aetna,0.68,FL,2024-08-30
+P00217,Cedars-Sinai,Diabetes,Physical Therapy,3459.4,Cigna,0.47,NJ,2024-09-12
+P00218,NewYork-Presbyterian,Kidney Disease,Specialist Consultation,6076.99,BlueCross,0.95,CA,2024-12-06
+P00219,Mayo Clinic,Diabetes,Medication Therapy,12813.41,Humana,0.71,IL,2024-04-02
+P00220,NewYork-Presbyterian,Hypertension,Medication Therapy,10310.39,Aetna,0.7,TX,2024-02-18
+P00221,UCLA Medical Center,Kidney Disease,Outpatient Procedure,2070.41,Kaiser,0.55,FL,2024-06-22
+P00222,Stanford Health Care,Orthopedic Injury,Medication Therapy,8816.75,Cigna,0.31,NJ,2024-05-25
+P00223,Mass General Hospital,Neurological Disorder,Emergency Treatment,6807.69,Aetna,0.64,CA,2024-07-25
+P00224,Mass General Hospital,Hypertension,Surgery,4007.71,UnitedHealth,0.41,WA,2024-06-18
+P00225,Stanford Health Care,Orthopedic Injury,Surgery,11566.07,UnitedHealth,0.09,NJ,2024-10-06
+P00226,Mayo Clinic,Neurological Disorder,Specialist Consultation,15366.48,Kaiser,0.18,CA,2024-11-07
+P00227,NewYork-Presbyterian,Hypertension,Surgery,981.59,Humana,0.21,NY,2024-04-18
+P00228,Mayo Clinic,Kidney Disease,Physical Therapy,15535.79,Cigna,0.56,MA,2024-08-03
+P00229,Mayo Clinic,Kidney Disease,Medication Therapy,3858.57,BlueCross,0.56,NY,2024-06-03
+P00230,Mayo Clinic,Cardiac Disease,Specialist Consultation,11436.65,Kaiser,0.68,WA,2024-09-11
+P00231,Stanford Health Care,Gastrointestinal Issue,Physical Therapy,1530.93,BlueCross,0.74,CA,2024-08-16
+P00232,Johns Hopkins,Hypertension,Medication Therapy,12961.22,BlueCross,0.05,CA,2024-02-12
+P00233,Cleveland Clinic,Hypertension,Outpatient Procedure,4521.26,UnitedHealth,0.3,FL,2024-02-15
+P00234,Mount Sinai,Diabetes,Emergency Treatment,14724.44,Humana,0.69,TX,2024-08-18
+P00235,Houston Methodist,Respiratory Infection,Outpatient Procedure,6004.24,Humana,0.89,MA,2024-02-13
+P00236,Mayo Clinic,Diabetes,Medication Therapy,14400.76,Humana,0.67,CA,2024-01-27
+P00237,Cedars-Sinai,Hypertension,Outpatient Procedure,6359.04,Kaiser,0.1,IL,2024-07-18
+P00238,NewYork-Presbyterian,Hypertension,Physical Therapy,14609.78,UnitedHealth,0.38,TX,2024-10-21
+P00239,NewYork-Presbyterian,Cancer Screening,Outpatient Procedure,16076.6,Cigna,0.76,IL,2024-11-18
+P00240,Cedars-Sinai,Gastrointestinal Issue,Emergency Treatment,5742.16,Kaiser,0.7,NY,2024-05-29
+P00241,Mass General Hospital,Gastrointestinal Issue,Specialist Consultation,12102.52,Aetna,0.39,WA,2024-03-18
+P00242,Johns Hopkins,Respiratory Infection,Lab Testing,15474.62,Humana,0.05,MA,2024-11-04
+P00243,Cedars-Sinai,Diabetes,Lab Testing,8565.5,Aetna,0.78,TX,2024-05-17
+P00244,Houston Methodist,Respiratory Infection,Emergency Treatment,19512.33,Kaiser,0.13,NJ,2024-05-20
+P00245,Johns Hopkins,Orthopedic Injury,Medication Therapy,4168.52,Humana,0.41,FL,2024-07-14
+P00246,Mayo Clinic,Cancer Screening,Outpatient Procedure,11810.49,Kaiser,0.13,IL,2024-05-10
+P00247,Cedars-Sinai,Neurological Disorder,Lab Testing,4810.76,Kaiser,0.34,FL,2024-02-02
+P00248,Cleveland Clinic,Hypertension,Lab Testing,4411.33,Cigna,0.57,IL,2024-04-06
+P00249,Mount Sinai,Asthma,Medication Therapy,15636.84,BlueCross,0.39,CA,2024-07-25
+P00250,Cleveland Clinic,Hypertension,Emergency Treatment,12728.3,Kaiser,0.08,MA,2024-07-09
+P00251,Cleveland Clinic,Diabetes,Diagnostic Imaging,12221.31,Kaiser,0.49,FL,2024-09-22
+P00252,Mass General Hospital,Cancer Screening,Surgery,18524.81,BlueCross,0.74,TX,2024-05-13
+P00253,UCLA Medical Center,Asthma,Physical Therapy,16906.18,BlueCross,0.13,NY,2024-05-10
+P00254,NewYork-Presbyterian,Respiratory Infection,Surgery,11236.13,Kaiser,0.63,CA,2024-01-18
+P00255,Mass General Hospital,Kidney Disease,Diagnostic Imaging,19194.07,Humana,0.13,WA,2024-12-27
+P00256,Mount Sinai,Kidney Disease,Diagnostic Imaging,9077.2,Humana,0.25,NY,2024-04-03
+P00257,Mayo Clinic,Neurological Disorder,Medication Therapy,18835.11,UnitedHealth,0.28,NJ,2024-05-11
+P00258,UCLA Medical Center,Diabetes,Diagnostic Imaging,2200.92,Humana,0.72,NJ,2024-01-29
+P00259,UCLA Medical Center,Kidney Disease,Lab Testing,2287.31,BlueCross,0.16,NJ,2024-11-30
+P00260,Johns Hopkins,Hypertension,Medication Therapy,3537.83,BlueCross,0.7,FL,2024-07-13
+P00261,Johns Hopkins,Cardiac Disease,Emergency Treatment,3307.73,Humana,0.18,NJ,2024-01-19
+P00262,Stanford Health Care,Diabetes,Surgery,18533.61,BlueCross,0.93,IL,2024-02-19
+P00263,UCLA Medical Center,Hypertension,Emergency Treatment,9655.26,Aetna,0.71,TX,2024-04-29
+P00264,Mount Sinai,Respiratory Infection,Physical Therapy,9137.28,Cigna,0.43,FL,2024-12-31
+P00265,Cedars-Sinai,Orthopedic Injury,Emergency Treatment,703.32,Aetna,0.28,CA,2024-03-20
+P00266,NewYork-Presbyterian,Cardiac Disease,Physical Therapy,9232.46,Kaiser,0.1,FL,2024-06-11
+P00267,Mass General Hospital,Cardiac Disease,Lab Testing,9653.62,Aetna,0.92,WA,2024-10-13
+P00268,Johns Hopkins,Cardiac Disease,Specialist Consultation,19962.1,Cigna,0.42,TX,2024-05-13
+P00269,Mass General Hospital,Hypertension,Medication Therapy,16680.0,BlueCross,0.78,IL,2024-01-30
+P00270,Mayo Clinic,Neurological Disorder,Lab Testing,2974.84,Aetna,0.37,NY,2024-09-18
+P00271,Cedars-Sinai,Hypertension,Physical Therapy,4521.65,Aetna,0.52,FL,2024-07-28
+P00272,Cedars-Sinai,Cardiac Disease,Surgery,3677.42,Kaiser,0.71,MA,2024-12-30
+P00273,Cedars-Sinai,Asthma,Lab Testing,4279.43,Aetna,0.06,WA,2024-03-30
+P00274,UCLA Medical Center,Kidney Disease,Lab Testing,10465.49,Humana,0.83,NJ,2024-01-29
+P00275,NewYork-Presbyterian,Hypertension,Lab Testing,505.81,Aetna,0.22,IL,2024-02-16
+P00276,UCLA Medical Center,Gastrointestinal Issue,Medication Therapy,3437.06,Cigna,0.52,NJ,2024-01-19
+P00277,UCLA Medical Center,Asthma,Emergency Treatment,1612.57,Humana,0.83,NY,2024-09-21
+P00278,NewYork-Presbyterian,Respiratory Infection,Medication Therapy,17481.51,Kaiser,0.77,TX,2024-05-29
+P00279,Cleveland Clinic,Asthma,Physical Therapy,5022.05,Aetna,0.14,MA,2024-01-11
+P00280,Mayo Clinic,Diabetes,Surgery,16379.64,Humana,0.71,MA,2024-10-11
+P00281,Cedars-Sinai,Respiratory Infection,Diagnostic Imaging,16779.17,Humana,0.45,IL,2024-01-10
+P00282,Mayo Clinic,Orthopedic Injury,Surgery,14398.54,BlueCross,0.49,MA,2024-02-18
+P00283,Stanford Health Care,Hypertension,Diagnostic Imaging,2616.34,Aetna,0.18,NJ,2024-02-26
+P00284,Mayo Clinic,Cancer Screening,Specialist Consultation,3453.6,Kaiser,0.81,NY,2024-07-22
+P00285,Mayo Clinic,Kidney Disease,Emergency Treatment,19415.74,BlueCross,0.27,IL,2024-07-21
+P00286,Cedars-Sinai,Kidney Disease,Specialist Consultation,16891.92,Kaiser,0.1,TX,2024-08-11
+P00287,Johns Hopkins,Cancer Screening,Medication Therapy,18699.79,Cigna,0.15,TX,2024-12-14
+P00288,Johns Hopkins,Neurological Disorder,Medication Therapy,6622.13,Aetna,0.18,WA,2024-02-05
+P00289,Mayo Clinic,Diabetes,Lab Testing,12737.59,Humana,0.61,NY,2024-08-20
+P00290,Cleveland Clinic,Neurological Disorder,Medication Therapy,2189.98,BlueCross,0.26,NY,2024-11-14
+P00291,UCLA Medical Center,Hypertension,Surgery,2438.27,UnitedHealth,0.58,MA,2024-05-27
+P00292,Houston Methodist,Hypertension,Outpatient Procedure,9435.06,UnitedHealth,0.51,MA,2024-02-13
+P00293,Mass General Hospital,Asthma,Surgery,11631.43,Humana,0.54,NJ,2024-07-27
+P00294,Johns Hopkins,Cancer Screening,Diagnostic Imaging,13957.73,Kaiser,0.69,NJ,2024-11-08
+P00295,NewYork-Presbyterian,Respiratory Infection,Lab Testing,6213.28,UnitedHealth,0.27,FL,2024-10-07
+P00296,Stanford Health Care,Gastrointestinal Issue,Specialist Consultation,10346.5,UnitedHealth,0.88,TX,2024-04-06
+P00297,UCLA Medical Center,Respiratory Infection,Lab Testing,6614.26,Cigna,0.84,FL,2024-05-02
+P00298,Mayo Clinic,Hypertension,Surgery,1326.77,Kaiser,0.83,NJ,2024-05-31
+P00299,Stanford Health Care,Respiratory Infection,Emergency Treatment,1427.93,Humana,0.74,FL,2024-12-02
+P00300,Mount Sinai,Cancer Screening,Emergency Treatment,14825.02,Humana,0.37,FL,2024-12-12
+P00301,Mass General Hospital,Neurological Disorder,Surgery,12292.98,Humana,0.82,NJ,2024-11-11
+P00302,Mount Sinai,Cancer Screening,Surgery,15741.86,UnitedHealth,0.42,CA,2024-05-17
+P00303,Cedars-Sinai,Hypertension,Specialist Consultation,8070.37,Cigna,0.84,CA,2024-09-11
+P00304,NewYork-Presbyterian,Orthopedic Injury,Emergency Treatment,17063.37,Cigna,0.37,WA,2024-07-13
+P00305,NewYork-Presbyterian,Cancer Screening,Outpatient Procedure,6575.48,Cigna,0.22,MA,2024-11-27
+P00306,Stanford Health Care,Gastrointestinal Issue,Diagnostic Imaging,8825.79,UnitedHealth,0.79,IL,2024-03-15
+P00307,Cedars-Sinai,Asthma,Emergency Treatment,19385.21,Aetna,0.92,NY,2024-06-14
+P00308,Cedars-Sinai,Respiratory Infection,Lab Testing,1139.35,Kaiser,0.75,WA,2024-01-14
+P00309,Stanford Health Care,Cancer Screening,Outpatient Procedure,16548.39,Cigna,0.09,IL,2024-09-21
+P00310,Cleveland Clinic,Neurological Disorder,Diagnostic Imaging,18968.42,UnitedHealth,0.42,WA,2024-08-19
+P00311,Cedars-Sinai,Hypertension,Diagnostic Imaging,11314.51,BlueCross,0.49,NJ,2024-11-28
+P00312,Cedars-Sinai,Kidney Disease,Surgery,18003.23,Aetna,0.38,IL,2024-11-15
+P00313,Houston Methodist,Hypertension,Surgery,16555.38,Humana,0.86,IL,2024-02-08
+P00314,Stanford Health Care,Hypertension,Lab Testing,17785.24,Kaiser,0.24,FL,2024-09-17
+P00315,Cedars-Sinai,Gastrointestinal Issue,Surgery,3811.72,Cigna,0.56,NY,2024-07-30
+P00316,Mayo Clinic,Orthopedic Injury,Medication Therapy,8346.07,Cigna,0.41,CA,2024-12-20
+P00317,Mayo Clinic,Asthma,Physical Therapy,505.73,BlueCross,0.74,MA,2024-10-27
+P00318,Houston Methodist,Hypertension,Diagnostic Imaging,17932.18,BlueCross,0.59,TX,2024-11-27
+P00319,Houston Methodist,Cardiac Disease,Medication Therapy,10464.79,UnitedHealth,0.12,NJ,2024-03-21
+P00320,Mayo Clinic,Diabetes,Emergency Treatment,12337.48,Aetna,0.69,IL,2024-08-27
+P00321,Mass General Hospital,Cardiac Disease,Surgery,3554.41,Cigna,0.22,WA,2024-05-21
+P00322,Stanford Health Care,Gastrointestinal Issue,Medication Therapy,1282.64,BlueCross,0.1,FL,2024-01-11
+P00323,Mount Sinai,Gastrointestinal Issue,Physical Therapy,4613.41,Cigna,0.06,NJ,2024-05-07
+P00324,Mass General Hospital,Respiratory Infection,Surgery,8483.85,Aetna,0.66,FL,2024-06-04
+P00325,NewYork-Presbyterian,Diabetes,Diagnostic Imaging,6321.33,UnitedHealth,0.21,IL,2024-07-30
+P00326,Mass General Hospital,Cancer Screening,Emergency Treatment,3893.75,UnitedHealth,0.35,WA,2024-07-13
+P00327,Cleveland Clinic,Cardiac Disease,Specialist Consultation,8183.28,Cigna,0.55,WA,2024-06-20
+P00328,UCLA Medical Center,Asthma,Specialist Consultation,9446.87,UnitedHealth,0.3,NY,2024-04-07
+P00329,Johns Hopkins,Hypertension,Surgery,16136.45,Aetna,0.29,TX,2024-06-23
+P00330,Johns Hopkins,Hypertension,Emergency Treatment,8977.51,Cigna,0.24,WA,2024-10-11
+P00331,Cedars-Sinai,Asthma,Lab Testing,12661.01,BlueCross,0.5,FL,2024-07-11
+P00332,Mass General Hospital,Gastrointestinal Issue,Outpatient Procedure,13570.99,Kaiser,0.94,FL,2024-08-19
+P00333,Johns Hopkins,Hypertension,Surgery,12242.43,Humana,0.51,MA,2024-07-25
+P00334,Cedars-Sinai,Hypertension,Lab Testing,768.59,UnitedHealth,0.4,CA,2024-07-16
+P00335,Johns Hopkins,Kidney Disease,Diagnostic Imaging,3705.53,Humana,0.85,CA,2024-12-21
+P00336,Houston Methodist,Orthopedic Injury,Diagnostic Imaging,18294.23,UnitedHealth,0.7,CA,2024-10-14
+P00337,Stanford Health Care,Orthopedic Injury,Emergency Treatment,5913.65,BlueCross,0.81,NJ,2024-04-25
+P00338,Mount Sinai,Orthopedic Injury,Physical Therapy,17678.57,UnitedHealth,0.38,IL,2024-11-17
+P00339,NewYork-Presbyterian,Asthma,Specialist Consultation,700.22,Cigna,0.87,CA,2024-07-30
+P00340,Mass General Hospital,Gastrointestinal Issue,Diagnostic Imaging,5971.23,Humana,0.66,WA,2024-04-03
+P00341,Stanford Health Care,Asthma,Lab Testing,12248.89,Aetna,0.39,NY,2024-01-21
+P00342,Mount Sinai,Gastrointestinal Issue,Diagnostic Imaging,6356.16,Kaiser,0.5,MA,2024-10-09
+P00343,Cedars-Sinai,Kidney Disease,Medication Therapy,13468.65,UnitedHealth,0.8,MA,2024-08-10
+P00344,Cedars-Sinai,Gastrointestinal Issue,Medication Therapy,17527.22,Aetna,0.66,NY,2024-01-22
+P00345,UCLA Medical Center,Cardiac Disease,Specialist Consultation,4360.76,Humana,0.72,FL,2024-06-12
+P00346,UCLA Medical Center,Cancer Screening,Outpatient Procedure,10641.03,Cigna,0.67,NJ,2024-05-23
+P00347,Johns Hopkins,Cancer Screening,Physical Therapy,1275.15,BlueCross,0.74,NY,2024-09-17
+P00348,Houston Methodist,Orthopedic Injury,Physical Therapy,16538.48,Kaiser,0.2,FL,2024-12-25
+P00349,Mayo Clinic,Hypertension,Emergency Treatment,5353.48,Cigna,0.42,FL,2024-10-05
+P00350,Mount Sinai,Respiratory Infection,Outpatient Procedure,6348.95,Aetna,0.69,NY,2024-11-21
+P00351,Mount Sinai,Kidney Disease,Lab Testing,13892.2,Aetna,0.85,TX,2024-09-20
+P00352,UCLA Medical Center,Cardiac Disease,Specialist Consultation,11352.72,Aetna,0.66,TX,2024-10-27
+P00353,Stanford Health Care,Asthma,Surgery,19590.32,Humana,0.31,IL,2024-11-02
+P00354,Mayo Clinic,Orthopedic Injury,Lab Testing,4287.37,Aetna,0.15,MA,2024-09-06
+P00355,Mount Sinai,Kidney Disease,Outpatient Procedure,19265.12,BlueCross,0.56,MA,2024-08-17
+P00356,Mayo Clinic,Diabetes,Outpatient Procedure,11239.13,BlueCross,0.13,IL,2024-03-27
+P00357,NewYork-Presbyterian,Cancer Screening,Outpatient Procedure,5435.73,Aetna,0.76,IL,2024-10-15
+P00358,Cleveland Clinic,Orthopedic Injury,Lab Testing,7314.05,Humana,0.27,TX,2024-01-05
+P00359,Stanford Health Care,Hypertension,Lab Testing,700.8,Cigna,0.22,TX,2024-01-15
+P00360,Mass General Hospital,Gastrointestinal Issue,Emergency Treatment,15735.42,BlueCross,0.22,IL,2024-02-22
+P00361,Mount Sinai,Neurological Disorder,Emergency Treatment,4758.47,Cigna,0.27,NY,2024-06-12
+P00362,Stanford Health Care,Diabetes,Diagnostic Imaging,11424.02,BlueCross,0.43,TX,2024-02-24
+P00363,Cleveland Clinic,Hypertension,Diagnostic Imaging,12131.98,Aetna,0.17,WA,2024-06-02
+P00364,NewYork-Presbyterian,Respiratory Infection,Diagnostic Imaging,19584.96,Aetna,0.7,NY,2024-02-15
+P00365,Houston Methodist,Cancer Screening,Physical Therapy,16848.3,Cigna,0.11,NY,2024-01-17
+P00366,UCLA Medical Center,Cardiac Disease,Outpatient Procedure,14273.4,UnitedHealth,0.65,TX,2024-09-20
+P00367,Mayo Clinic,Respiratory Infection,Emergency Treatment,7700.69,Kaiser,0.23,CA,2024-03-25
+P00368,NewYork-Presbyterian,Cancer Screening,Physical Therapy,6609.15,BlueCross,0.92,CA,2024-10-04
+P00369,UCLA Medical Center,Gastrointestinal Issue,Lab Testing,14510.81,Kaiser,0.56,IL,2024-01-31
+P00370,Mount Sinai,Orthopedic Injury,Emergency Treatment,13198.65,Kaiser,0.85,NY,2024-09-03
+P00371,NewYork-Presbyterian,Cardiac Disease,Physical Therapy,4605.17,Humana,0.57,WA,2024-04-06
+P00372,Cedars-Sinai,Respiratory Infection,Specialist Consultation,10693.57,Cigna,0.15,TX,2024-07-03
+P00373,Cleveland Clinic,Asthma,Lab Testing,11052.65,Humana,0.14,MA,2024-04-13
+P00374,Houston Methodist,Respiratory Infection,Diagnostic Imaging,9887.69,Kaiser,0.57,CA,2024-12-29
+P00375,Cedars-Sinai,Cardiac Disease,Specialist Consultation,18203.21,Humana,0.12,NJ,2024-09-19
+P00376,Houston Methodist,Neurological Disorder,Surgery,17296.84,Humana,0.94,CA,2024-03-09
+P00377,Stanford Health Care,Neurological Disorder,Physical Therapy,16638.17,Aetna,0.56,CA,2024-08-23
+P00378,Cedars-Sinai,Diabetes,Specialist Consultation,7592.61,Aetna,0.09,NY,2024-03-11
+P00379,Johns Hopkins,Respiratory Infection,Lab Testing,14098.24,UnitedHealth,0.69,WA,2024-01-08
+P00380,Johns Hopkins,Gastrointestinal Issue,Surgery,12499.17,Humana,0.83,TX,2024-02-14
+P00381,UCLA Medical Center,Diabetes,Lab Testing,14959.6,UnitedHealth,0.27,IL,2024-07-06
+P00382,Cedars-Sinai,Kidney Disease,Surgery,1061.37,Cigna,0.54,CA,2024-09-07
+P00383,Johns Hopkins,Orthopedic Injury,Emergency Treatment,18522.07,Aetna,0.67,NY,2024-01-18
+P00384,Mayo Clinic,Respiratory Infection,Surgery,8909.59,UnitedHealth,0.77,TX,2024-10-24
+P00385,Mass General Hospital,Cancer Screening,Physical Therapy,11174.08,Kaiser,0.84,MA,2024-03-17
+P00386,UCLA Medical Center,Hypertension,Outpatient Procedure,473.25,Kaiser,0.49,NY,2024-08-15
+P00387,Cedars-Sinai,Gastrointestinal Issue,Specialist Consultation,1677.16,BlueCross,0.92,NJ,2024-01-19
+P00388,Cedars-Sinai,Neurological Disorder,Surgery,4738.34,Cigna,0.35,FL,2024-07-20
+P00389,Cedars-Sinai,Gastrointestinal Issue,Medication Therapy,17900.89,Aetna,0.2,IL,2024-06-08
+P00390,NewYork-Presbyterian,Cancer Screening,Emergency Treatment,6761.11,Cigna,0.06,NJ,2024-08-27
+P00391,Johns Hopkins,Respiratory Infection,Medication Therapy,4687.02,Humana,0.18,TX,2024-06-19
+P00392,Cleveland Clinic,Neurological Disorder,Lab Testing,7811.74,Cigna,0.56,TX,2024-05-19
+P00393,Houston Methodist,Cardiac Disease,Diagnostic Imaging,875.41,BlueCross,0.62,CA,2024-12-23
+P00394,Johns Hopkins,Hypertension,Surgery,15879.67,Cigna,0.92,IL,2024-07-04
+P00395,Johns Hopkins,Kidney Disease,Specialist Consultation,10276.36,Cigna,0.1,IL,2024-07-04
+P00396,NewYork-Presbyterian,Neurological Disorder,Emergency Treatment,6599.36,Aetna,0.78,IL,2024-12-09
+P00397,Mayo Clinic,Respiratory Infection,Specialist Consultation,2885.28,BlueCross,0.41,MA,2024-03-18
+P00398,Mount Sinai,Orthopedic Injury,Lab Testing,11818.5,Cigna,0.7,IL,2024-03-27
+P00399,Cedars-Sinai,Cardiac Disease,Physical Therapy,18440.24,Cigna,0.57,NJ,2024-02-07
+P00400,Stanford Health Care,Cardiac Disease,Outpatient Procedure,19416.99,Cigna,0.86,MA,2024-07-01
+P00401,Mount Sinai,Orthopedic Injury,Diagnostic Imaging,11020.4,Humana,0.07,NY,2024-05-11
+P00402,Cedars-Sinai,Orthopedic Injury,Surgery,9068.79,Aetna,0.27,NY,2024-07-23
+P00403,Cleveland Clinic,Cardiac Disease,Emergency Treatment,12100.23,Humana,0.17,FL,2024-03-07
+P00404,Mayo Clinic,Kidney Disease,Medication Therapy,10831.4,Aetna,0.34,NY,2024-05-18
+P00405,Cedars-Sinai,Kidney Disease,Physical Therapy,9829.22,UnitedHealth,0.83,NY,2024-11-28
+P00406,UCLA Medical Center,Respiratory Infection,Specialist Consultation,12600.96,Cigna,0.9,NY,2024-02-14
+P00407,Cedars-Sinai,Kidney Disease,Medication Therapy,18520.72,BlueCross,0.6,IL,2024-01-14
+P00408,Mount Sinai,Asthma,Physical Therapy,2050.28,Kaiser,0.74,CA,2024-03-21
+P00409,Stanford Health Care,Kidney Disease,Physical Therapy,16317.54,Humana,0.93,IL,2024-07-02
+P00410,Mass General Hospital,Respiratory Infection,Medication Therapy,14873.44,Humana,0.33,NJ,2024-04-27
+P00411,Houston Methodist,Neurological Disorder,Lab Testing,5709.6,Aetna,0.28,NJ,2024-10-13
+P00412,UCLA Medical Center,Hypertension,Diagnostic Imaging,13176.15,BlueCross,0.73,CA,2024-02-21
+P00413,Cleveland Clinic,Diabetes,Diagnostic Imaging,12567.67,Kaiser,0.75,MA,2024-01-15
+P00414,Mount Sinai,Hypertension,Physical Therapy,7439.07,Kaiser,0.08,FL,2024-11-06
+P00415,NewYork-Presbyterian,Asthma,Emergency Treatment,19650.16,BlueCross,0.46,IL,2024-08-14
+P00416,Mayo Clinic,Cardiac Disease,Specialist Consultation,2334.52,Humana,0.83,NY,2024-01-14
+P00417,Stanford Health Care,Cancer Screening,Diagnostic Imaging,11371.18,UnitedHealth,0.28,MA,2024-04-26
+P00418,Johns Hopkins,Kidney Disease,Diagnostic Imaging,8789.13,Cigna,0.73,MA,2024-12-29
+P00419,NewYork-Presbyterian,Asthma,Physical Therapy,17612.52,BlueCross,0.83,MA,2024-06-01
+P00420,Mass General Hospital,Cardiac Disease,Emergency Treatment,16492.03,UnitedHealth,0.49,FL,2024-03-10
+P00421,Cedars-Sinai,Gastrointestinal Issue,Outpatient Procedure,6531.41,Aetna,0.57,FL,2024-03-23
+P00422,NewYork-Presbyterian,Hypertension,Specialist Consultation,1114.55,Aetna,0.95,MA,2024-07-03
+P00423,Cleveland Clinic,Hypertension,Medication Therapy,683.6,Aetna,0.87,TX,2024-12-16
+P00424,Cleveland Clinic,Hypertension,Outpatient Procedure,14773.12,Humana,0.41,WA,2024-09-14
+P00425,Stanford Health Care,Kidney Disease,Medication Therapy,12914.8,Kaiser,0.26,NY,2024-06-22
+P00426,Cedars-Sinai,Asthma,Specialist Consultation,2869.67,Humana,0.14,NY,2024-01-20
+P00427,UCLA Medical Center,Cardiac Disease,Surgery,19817.43,UnitedHealth,0.91,TX,2024-01-25
+P00428,Mount Sinai,Asthma,Physical Therapy,8683.8,Humana,0.71,CA,2024-09-26
+P00429,NewYork-Presbyterian,Cardiac Disease,Emergency Treatment,7200.74,Aetna,0.82,FL,2024-09-28
+P00430,Mount Sinai,Diabetes,Lab Testing,5604.86,Cigna,0.11,NY,2024-02-07
+P00431,Stanford Health Care,Neurological Disorder,Emergency Treatment,10273.28,Cigna,0.06,NY,2024-04-10
+P00432,Mass General Hospital,Neurological Disorder,Emergency Treatment,9184.06,Humana,0.42,MA,2024-11-30
+P00433,Houston Methodist,Cancer Screening,Specialist Consultation,8554.84,Aetna,0.4,WA,2024-07-23
+P00434,Mayo Clinic,Asthma,Lab Testing,16114.33,Humana,0.6,WA,2024-07-28
+P00435,Cleveland Clinic,Cardiac Disease,Medication Therapy,16546.0,Humana,0.09,IL,2024-05-03
+P00436,Houston Methodist,Kidney Disease,Outpatient Procedure,12995.23,Kaiser,0.05,NJ,2024-12-16
+P00437,Houston Methodist,Cancer Screening,Diagnostic Imaging,6978.69,Humana,0.76,WA,2024-09-18
+P00438,Stanford Health Care,Neurological Disorder,Lab Testing,14301.02,Kaiser,0.64,IL,2024-06-30
+P00439,Houston Methodist,Asthma,Lab Testing,12652.23,Cigna,0.87,NJ,2024-02-06
+P00440,NewYork-Presbyterian,Gastrointestinal Issue,Diagnostic Imaging,10536.46,Aetna,0.11,IL,2024-06-27
+P00441,Mount Sinai,Kidney Disease,Diagnostic Imaging,4255.86,Humana,0.21,NJ,2024-09-25
+P00442,Mayo Clinic,Kidney Disease,Specialist Consultation,12882.41,Cigna,0.8,WA,2024-03-31
+P00443,Mass General Hospital,Cancer Screening,Surgery,8318.52,Cigna,0.37,MA,2024-03-03
+P00444,Mass General Hospital,Cancer Screening,Lab Testing,13312.31,BlueCross,0.68,NJ,2024-08-19
+P00445,Mount Sinai,Neurological Disorder,Physical Therapy,9671.13,UnitedHealth,0.66,IL,2024-11-20
+P00446,Johns Hopkins,Gastrointestinal Issue,Emergency Treatment,10509.74,Kaiser,0.36,WA,2024-09-07
+P00447,Johns Hopkins,Diabetes,Lab Testing,551.78,UnitedHealth,0.58,MA,2024-05-09
+P00448,UCLA Medical Center,Orthopedic Injury,Diagnostic Imaging,5636.99,Cigna,0.8,CA,2024-10-05
+P00449,Cleveland Clinic,Asthma,Physical Therapy,12795.63,BlueCross,0.91,MA,2024-09-25
+P00450,Mayo Clinic,Respiratory Infection,Specialist Consultation,15664.9,Cigna,0.09,MA,2024-11-12
+P00451,Cedars-Sinai,Orthopedic Injury,Emergency Treatment,8733.15,Aetna,0.4,TX,2024-07-27
+P00452,Cedars-Sinai,Kidney Disease,Surgery,3993.88,Humana,0.23,CA,2024-11-12
+P00453,Stanford Health Care,Cancer Screening,Specialist Consultation,15169.56,BlueCross,0.89,NY,2024-02-10
+P00454,NewYork-Presbyterian,Respiratory Infection,Specialist Consultation,11936.98,BlueCross,0.95,TX,2024-02-25
+P00455,NewYork-Presbyterian,Hypertension,Medication Therapy,8908.79,Humana,0.26,FL,2024-02-03
+P00456,Mass General Hospital,Neurological Disorder,Emergency Treatment,10924.97,BlueCross,0.74,CA,2024-07-24
+P00457,Cleveland Clinic,Gastrointestinal Issue,Medication Therapy,4570.03,UnitedHealth,0.5,FL,2024-02-16
+P00458,Johns Hopkins,Kidney Disease,Outpatient Procedure,9194.7,UnitedHealth,0.55,WA,2024-10-15
+P00459,Stanford Health Care,Diabetes,Physical Therapy,2976.35,Cigna,0.35,NY,2024-10-25
+P00460,Mass General Hospital,Neurological Disorder,Lab Testing,19775.88,UnitedHealth,0.33,MA,2024-04-05
+P00461,Houston Methodist,Cancer Screening,Specialist Consultation,17205.79,Humana,0.1,MA,2024-12-05
+P00462,Stanford Health Care,Neurological Disorder,Lab Testing,17362.15,Cigna,0.23,NY,2024-05-07
+P00463,UCLA Medical Center,Respiratory Infection,Outpatient Procedure,10829.61,Humana,0.58,IL,2024-04-16
+P00464,Houston Methodist,Diabetes,Emergency Treatment,4165.27,UnitedHealth,0.53,WA,2024-06-23
+P00465,Mayo Clinic,Orthopedic Injury,Diagnostic Imaging,16503.06,BlueCross,0.31,FL,2024-10-16
+P00466,Stanford Health Care,Respiratory Infection,Diagnostic Imaging,12292.38,Aetna,0.1,WA,2024-10-30
+P00467,Mount Sinai,Cardiac Disease,Outpatient Procedure,2664.38,Aetna,0.06,TX,2024-11-23
+P00468,Mass General Hospital,Asthma,Physical Therapy,4571.95,Aetna,0.75,FL,2024-09-12
+P00469,Cleveland Clinic,Asthma,Surgery,2197.07,UnitedHealth,0.42,MA,2024-09-21
+P00470,Stanford Health Care,Hypertension,Medication Therapy,18136.39,Humana,0.17,TX,2024-12-27
+P00471,Johns Hopkins,Gastrointestinal Issue,Emergency Treatment,6013.98,Humana,0.55,TX,2024-08-16
+P00472,UCLA Medical Center,Neurological Disorder,Diagnostic Imaging,18255.69,Aetna,0.9,FL,2024-06-07
+P00473,UCLA Medical Center,Cancer Screening,Physical Therapy,19488.64,Humana,0.31,CA,2024-07-19
+P00474,Mount Sinai,Cancer Screening,Emergency Treatment,9396.17,Humana,0.41,NY,2024-04-11
+P00475,Johns Hopkins,Neurological Disorder,Surgery,2618.12,Cigna,0.49,NY,2024-06-29
+P00476,Cleveland Clinic,Asthma,Outpatient Procedure,17809.98,Cigna,0.83,CA,2024-09-11
+P00477,Mass General Hospital,Asthma,Lab Testing,2966.22,UnitedHealth,0.57,CA,2024-04-13
+P00478,Mount Sinai,Orthopedic Injury,Medication Therapy,7017.11,Aetna,0.35,NJ,2024-01-01
+P00479,UCLA Medical Center,Hypertension,Surgery,5098.45,Cigna,0.78,NJ,2024-09-03
+P00480,Cleveland Clinic,Hypertension,Specialist Consultation,14989.8,BlueCross,0.08,NY,2024-02-18
+P00481,Stanford Health Care,Hypertension,Specialist Consultation,11668.92,Kaiser,0.8,CA,2024-09-19
+P00482,Mount Sinai,Kidney Disease,Physical Therapy,14606.95,Humana,0.9,IL,2024-07-10
+P00483,NewYork-Presbyterian,Orthopedic Injury,Physical Therapy,16877.46,Cigna,0.13,FL,2024-01-03
+P00484,Mass General Hospital,Neurological Disorder,Surgery,3230.9,Cigna,0.47,TX,2024-02-29
+P00485,Houston Methodist,Orthopedic Injury,Emergency Treatment,10802.26,Aetna,0.31,FL,2024-10-18
+P00486,Houston Methodist,Neurological Disorder,Diagnostic Imaging,18186.36,UnitedHealth,0.06,NY,2024-03-06
+P00487,Cedars-Sinai,Asthma,Diagnostic Imaging,15875.29,UnitedHealth,0.73,TX,2024-09-07
+P00488,Stanford Health Care,Cancer Screening,Surgery,19963.52,Cigna,0.56,CA,2024-05-15
+P00489,Johns Hopkins,Asthma,Diagnostic Imaging,13345.0,Kaiser,0.75,NY,2024-02-13
+P00490,UCLA Medical Center,Cardiac Disease,Medication Therapy,1646.45,Aetna,0.61,TX,2024-05-05
+P00491,NewYork-Presbyterian,Gastrointestinal Issue,Physical Therapy,6973.02,UnitedHealth,0.34,WA,2024-06-04
+P00492,Johns Hopkins,Hypertension,Physical Therapy,838.34,Aetna,0.77,TX,2024-07-27
+P00493,Johns Hopkins,Kidney Disease,Surgery,4124.37,UnitedHealth,0.76,NJ,2024-04-14
+P00494,UCLA Medical Center,Cardiac Disease,Surgery,10047.1,Aetna,0.83,NY,2024-01-20
+P00495,Cleveland Clinic,Kidney Disease,Physical Therapy,15775.02,BlueCross,0.66,NJ,2024-07-06
+P00496,Mass General Hospital,Diabetes,Outpatient Procedure,5334.26,Humana,0.58,WA,2024-03-10
+P00497,Houston Methodist,Orthopedic Injury,Surgery,16538.44,UnitedHealth,0.92,MA,2024-07-16
+P00498,Cedars-Sinai,Respiratory Infection,Diagnostic Imaging,4954.1,BlueCross,0.57,NY,2024-04-28
+P00499,Stanford Health Care,Kidney Disease,Specialist Consultation,13339.54,BlueCross,0.9,FL,2024-07-19
+P00500,UCLA Medical Center,Gastrointestinal Issue,Specialist Consultation,13504.3,Cigna,0.05,NJ,2024-11-30

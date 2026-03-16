@@ -1,110 +1,178 @@
-# VS Code for Analysts Lab
 
-> **VS Code Essentials for Analysts: Workspace, Git, Copilot & Spreadsheet Workflows in 90 Minutes**
+# VS Code for Business Professionals
+## AI‑Assisted Data Investigation & Collaboration
 
-Welcome! This hands-on lab introduces analysts to Visual Studio Code as a practical, efficient environment for real analyst work — reading data, writing documentation, running SQL and Python, and collaborating with teams through Git.
+**Course Duration:** 60 minutes
 
-**You do NOT need to be a developer.** Everything is guided. Copilot helps write the code. Your job is to think like an analyst and evaluate whether the output makes sense.
+This hands‑on course introduces participants to **Visual Studio Code (VS Code)** and **GitHub Copilot** as practical tools for modern data exploration, analysis, and collaboration.
 
----
+The course focuses on three core capabilities used in real organizations:
 
-## Who This Lab Is For
+**1. Setting up a professional VS Code workspace**
+Participants learn how to configure and navigate a modern development environment. This includes exploring project folders, working with different file types — Markdown documents, CSV datasets, and Excel spreadsheets — and understanding how teams organize data, documentation, and analysis inside a shared workspace.
 
-Business analysts, data analysts, financial analysts, operations analysts, and anyone who works with spreadsheets, reports, SQL, or data documentation daily. No coding background required.
+**2. Analyzing real‑world business problems using Copilot**
+Participants work as financial risk analysts investigating a real investigation mandate. They begin by reading meeting notes and system documentation, build an investigation strategy, then move into structured datasets to identify suspicious patterns. Using Copilot's Ask, Plan, and Agent modes, they work across multiple file types — exactly as analysts do in real organizations.
 
----
+**3. Validating insights and documenting results for collaboration**
+Participants review the generated investigation report, validate findings against source data, update system documentation, and commit changes to the repository. This simulates the final stage of an enterprise analytics workflow where business and technical teams collaborate using shared repositories.
 
-## What You Will Walk Away With
+Together, these activities simulate a modern analytics workflow:
 
-| Deliverable | Description |
-|---|---|
-| Analyst-focused VS Code quick-start guide | Reference card for your daily workflow |
-| Git basics for analysts cheat sheet | The 6 commands every analyst needs |
-| Copilot prompt library for analysts | SQL, Python, and documentation prompts |
-| Training repo + datasets | Reusable scripts and sample data |
-| Spreadsheet analysis script | A Python script you can adapt for your own data |
-
----
-
-## Getting Started (Before the Session)
-
-1. Complete the pre-lab setup checklist (ask your instructor if anything is missing)
-2. Open this folder in VS Code: **File → Open Folder**
-3. When prompted to install extensions, click **Install**
-4. Open `docs/lab_instructions.md` — that is your step-by-step guide
+```
+Workspace Setup → Read Briefing → Explore Docs → Plan → Investigate Data → Report → Validate → Collaborate
+```
 
 ---
 
-## Folder Guide
+# Project Repository Structure
 
-| Folder / File | What It Contains |
-|---|---|
-| `data/raw/` | Original datasets — **do not edit these files** |
-| `data/processed/` | Your cleaned output will appear here after Lab 3 |
-| `docs/` | Lab instructions, business context, templates, and references |
-| `scripts/` | Python scripts — you will build and run these |
-| `sql/` | SQL analysis queries — you will write these with Copilot |
-| `notebooks/` | Jupyter notebook for running queries and exploring data |
-| `notes.md` | Your personal working notes (you will create this in Lab 1) |
+Participants work inside a prepared project workspace that simulates a typical enterprise repository.
 
----
+```
+enterprise-data-insights/
+│
+├── data/
+│   ├── banking_transactions.csv     ← banking transaction ledger (250 records)
+│   ├── insurance_claims.xlsx        ← insurance claims register
+│   └── stock_trades.csv             ← market trade surveillance data (200 records)
+│
+├── docs/
+│   ├── risk-committee-briefing.md   ← investigation mandate and priorities (Lab 2 start)
+│   ├── banking-system.md            ← banking fraud detection system specification
+│   ├── healthcare-platform.md       ← healthcare platform specification
+│   └── trading-system.md            ← market surveillance system specification
+│
+├── analysis/
+│   └── risk-investigation-report.md ← investigation report (generated in Lab 2)
+│
+└── diagrams/
+    └── system-architecture.md       ← architecture diagram (generated in Lab 2)
+```
 
-## Lab Overview
+This structure mirrors real project environments used by engineering and analytics teams:
 
-| Lab | What You Will Do | Time |
-|---|---|---|
-| Lab 1 — Workspace & Documentation | Set up your VS Code workspace and document a process with Copilot | 5 min |
-| Lab 2 — Clone & Update an Analytics Repo | Clone a repo, branch your work, commit and push changes | 10 min |
-| Lab 3 — Copilot for Analysis Tasks | Use Copilot to generate SQL/Python, explain code, define fields | 10 min |
-| Lab 4 — Spreadsheet Analysis for Analysts | Activate a venv, install packages, build an analysis script with Copilot | 15 min |
-| Wrap-Up & Next Steps | Recap + recommended follow-up courses | 2 min |
-
----
-
-## Key Files to Know
-
-| File | When You Need It |
-|---|---|
-| `docs/lab_instructions.md` | **Your main guide** — follow this throughout |
-| `docs/business_context.md` | Read this first — it is your project brief |
-| `docs/quick_reference_card.md` | VS Code shortcuts + Copilot tips |
-| `docs/git_basics_cheat_sheet.md` | The 6 Git commands every analyst needs |
-| `docs/copilot_prompt_library.md` | Ready-to-use prompts for every lab |
+- **data/** — operational datasets exported from enterprise systems
+- **docs/** — system specifications, meeting notes, and process documentation
+- **analysis/** — analytical outputs and investigation reports
+- **diagrams/** — workflow and architecture diagrams
 
 ---
 
-## Need Help?
+# Key Files Used in the Course
 
-| Situation | What to Do |
-|---|---|
-| Stuck in VS Code | Check `docs/quick_reference_card.md` |
-| Need a Copilot prompt | Check `docs/copilot_prompt_library.md` |
-| Git questions | Check `docs/git_basics_cheat_sheet.md` |
-| Script errors | See the troubleshooting table in `docs/lab_instructions.md` |
-| Generally lost | Raise your hand — your instructor is here to help |
+Participants work with several common file types used in real projects.
+
+### Documentation Files (Markdown — `.md`)
+
+```
+docs/risk-committee-briefing.md    ← read first in Lab 2 — investigation mandate
+docs/banking-system.md             ← fraud detection rules and data schema
+docs/healthcare-platform.md        ← claims processing and risk scoring
+docs/trading-system.md             ← market surveillance rules
+```
+
+### Data Files
+
+```
+data/banking_transactions.csv      ← CSV — primary banking dataset with flagged transactions
+data/insurance_claims.xlsx         ← Excel — insurance claims register with risk scores
+data/stock_trades.csv              ← CSV — stock trade surveillance data
+```
+
+### Generated Outputs
+
+During the labs participants will create or update:
+
+```
+analysis/risk-investigation-report.md    ← produced in Lab 2 using Agent Mode
+docs/banking-system.md                   ← updated in Lab 3 with new fraud rules
+diagrams/system-architecture.md          ← Mermaid diagram generated in Lab 2
+```
+
+These outputs represent the results of the investigation and documentation workflow.
 
 ---
 
-## Technical Information
+# Lab Overview
 
-**Tools used:** VS Code · GitHub Copilot · Python 3.10+ · pandas · openpyxl · matplotlib · SQLite · Markdown · Git
-
-**Branches:**
-- `lab-start` — Your starting point (use this during the session)
-- `solution-reference` — Revealed by instructor at the end only
-- `analysis-[yourname]` — The branch you will create in Lab 2
-
----
-
-## Recommended Follow-Up Courses
-
-After this session, continue your learning with:
-
-- SQL in VS Code
-- Python for Analysts
-- Documentation & Requirements in Markdown
-- Copilot for Analytics Workflows
+| Lab | Duration | Role | Focus |
+|-----|---------|------|-------|
+| **Lab 1** | 15 min | New team member | VS Code setup, file types, workspace navigation |
+| **Lab 2** | 30 min | Financial Risk Analyst | Briefing → System docs → Data investigation → Report |
+| **Lab 3** | 15 min | Product Manager | Validate, document, review, and commit |
 
 ---
 
-*This lab is designed for analysts — not developers. You will leave with tools and scripts you can apply to your actual work on Monday morning.*
+# Lab 2 File‑Type Progression
+
+Lab 2 is structured to teach participants how to work with different file types in a logical investigation sequence — exactly as real analysts do:
+
+```
+docs/risk-committee-briefing.md  →  docs/banking-system.md  →  data/banking_transactions.csv  →  data/insurance_claims.xlsx
+       (Meeting notes .md)              (System docs .md)              (Structured data .csv)             (Spreadsheet .xlsx)
+```
+
+This progression ensures participants understand *why* they are looking at data before they look at it — a critical professional habit.
+
+---
+
+# Course Completion Rules
+
+Participants complete the course successfully when they:
+
+### 1. Configure and Explore the Workspace
+Participants should be able to:
+
+- navigate VS Code panels
+- open project folders
+- search across files
+- open and preview CSV, Excel, and Markdown files
+
+### 2. Produce an Investigation Report
+
+Participants generate a completed analysis report at:
+
+```
+analysis/risk-investigation-report.md
+```
+
+The report must:
+
+- answer all 10 priority questions from the risk committee briefing
+- reference specific transaction IDs and claim records as evidence
+- include severity ratings and actionable recommendations
+
+### 3. Validate and Document Results
+
+Participants update system documentation using investigation findings:
+
+```
+docs/banking-system.md
+```
+
+Participants review the changes in Source Control and commit to the repository.
+
+---
+
+# Business Outcomes
+
+After completing this course participants will be able to:
+
+- set up and navigate a VS Code workspace
+- read and analyse Markdown documentation using Copilot
+- extract structured information from meeting notes and system specifications
+- use GitHub Copilot Ask Mode to explore data, documents, and ask analytical questions
+- use GitHub Copilot Plan Mode to generate structured investigation strategies
+- use GitHub Copilot Agent Mode to create reports and update files
+- investigate CSV and Excel datasets for suspicious patterns
+- generate investigation reports with AI assistance
+- validate findings against source data
+- update technical documentation with evidence-based improvements
+- commit and share results using Git workflows
+
+These capabilities enable business professionals to work effectively within **modern AI‑assisted development environments**, where analysis, documentation, and collaboration happen inside the same workspace.
+
+---
+
+# End of Course Overview
