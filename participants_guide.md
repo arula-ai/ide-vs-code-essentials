@@ -287,7 +287,14 @@ Switch Copilot to **Plan** mode.
 2. Run this prompt:
 
 ```
-Using the risk committee briefing and the banking fraud detection rules, create a step-by-step investigation plan covering: banking transaction analysis, insurance claim analysis, and cross-system pattern analysis. For each step specify: which file to examine, which columns to focus on, and what pattern to look for.
+Using the risk committee briefing and banking fraud rules, first ask me brief clarifying questions (datasets/files & columns, scope, time range, risk signals, common IDs). Wait for my response.
+
+Then create a step-by-step investigation plan for:
+1) Banking transactions
+2) Insurance claims
+3) Cross-system analysis
+
+For each step include: file/table, columns, and pattern to check. Tailor the plan to my answers.
 ```
 
 > Copilot generates a structured investigation roadmap you will follow in Phases 4 and 5.
@@ -498,31 +505,7 @@ docs/banking-system.md
 
 ---
 
-## Task 5 — Review Changes in Source Control
-
-1. Open the Source Control panel:
-
-```
-CMD + Shift + G
-```
-
-2. You should see these files listed under Changes:
-
-```
-analysis/risk-investigation-report.md
-docs/banking-system.md
-diagrams/system-architecture.md
-```
-
-3. Click `docs/banking-system.md` to open the **diff view**.
-4. Review the highlighted changes — green lines are additions, red lines are removals.
-5. Repeat for `analysis/risk-investigation-report.md`.
-
-> The diff view shows exactly what changed — identical to how engineering teams review documentation updates before merging.
-
----
-
-## Task 6 — Commit and Push to the Repository
+## Task 5 — Commit and Push to the Repository
 
 1. In the Source Control panel, click **+** to stage each changed file.
 2. Enter the following commit message:
@@ -536,6 +519,8 @@ Add financial risk investigation report and update fraud detection rules
 
 > Changes committed and shared with the team — the investigation is complete.
 
+
+
 ---
 
 ## Lab 3 — Checklist
@@ -544,12 +529,9 @@ Add financial risk investigation report and update fraud detection rules
 - [ ] Validated the report against source data and identified any gaps
 - [ ] Improved the report with specific IDs and severity ratings
 - [ ] Updated `docs/banking-system.md` with new fraud detection rules
-- [ ] Reviewed the diff for each changed file in Source Control
 - [ ] Committed and pushed all changes with a descriptive commit message
-
 ---
 
----
 
 # Course Complete
 
@@ -667,3 +649,27 @@ Summarise the key risk indicators described in this healthcare platform document
 ```
 
 > A summary of healthcare billing fraud types and detection signals — practice reading and extracting insights from a different domain's system documentation.
+
+## Task 5 — Review Changes in Source Control
+
+1. Open the Source Control panel:
+
+```
+CMD + Shift + G
+```
+
+2. You should see these files listed under Changes:
+
+```
+analysis/risk-investigation-report.md
+docs/banking-system.md
+diagrams/system-architecture.md
+```
+
+3. Click `docs/banking-system.md` to open the **diff view**.
+4. Review the highlighted changes — green lines are additions, red lines are removals.
+5. Repeat for `analysis/risk-investigation-report.md`.
+
+> The diff view shows exactly what changed — identical to how engineering teams review documentation updates before merging.
+
+
