@@ -79,25 +79,29 @@ Preferences: Color Theme
 
 ---
 
-## Task 4 — Open the Project Workspace
+### Task 4 — Clone and Open the Project Workspace
 
-1. Open the Command Palette:
-
+1. Inside VSCode Go to:
 ```
-CMD + Shift + P
+File → New Window
 ```
-
-2. Run:
-
+2. Center Panel Click button
 ```
-File: Open Folder
+Clone Git Repository
 ```
+4. Paste the repository on the top search
+```
+URL: https://<your-repo-link>
+```
+5. Choose a local folder destination and press Enter
 
-3. Navigate to and select the **enterprise-data-insights** project folder.
+6. Wait for cloning to complete
 
-> The Explorer panel will show the full project structure with `data/`, `docs/`, `analysis/`, and `diagrams/` folders.
-
----
+7. Open the project:
+```
+Click "Open" or "Open in New Window" when prompted
+```
+The Explorer panel will display folders like `data/`, `docs/`, `analysis/`, and `diagrams/`.
 
 ## Task 5 — Explore Different File Types
 
